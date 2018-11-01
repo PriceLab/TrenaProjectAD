@@ -1,9 +1,13 @@
 library(TrenaProjectIGAP)
 library(RUnit)
 #------------------------------------------------------------------------------------------------------------------------
+if(!exists("igap"))
+   igap <- TrenaProjectIGAP();
+#------------------------------------------------------------------------------------------------------------------------
 runTests <- function()
 {
    test_basic()
+   test_getVariants()
 
 } # runTests
 #------------------------------------------------------------------------------------------------------------------------
@@ -11,7 +15,6 @@ test_basic <- function()
 {
    print("---- test_basic")
 
-   igap <- TrenaProjectIGAP();
    expected <-  c("ABCA7", "APOE", "BIN1", "CASS4", "CD2AP", "CD33", "CELF1", "CLU", "CR1", "DSG2", "EPHA1",
                   "FERMT2", "HLA-DRB1", "HLA-DRB5", "INPP5D", "MEF2C", "MS4A6A", "NME8", "PICALM", "PTK2B",
                   "RIN3", "SLC24A4", "SORL1", "TOMM40", "ZCWPW1")
@@ -34,9 +37,6 @@ test_basic <- function()
    checkEquals(dim(tbl.covar), c(278, 8))   # includes all samples in mtx retrieved above
    checkTrue(all(colnames(mtx) %in% tbl.covar$ID))
 
-   checkEquals(getVariantDatasetNames(igap), "tbl.gwas.igap.snp")
-   tbl.snp <- getVariantDataset(igap, "tbl.gwas.igap.snp")
-   checkEquals(dim(tbl.snp), c(438609, 8))
 
    setTargetGene(igap, "INPP5D")
    checkEquals(getTargetGene(igap), "INPP5D")
@@ -59,7 +59,7 @@ test_basic <- function()
 
    tbl.chipSeq <- getChipSeq(igap, chrom=chromosome, start=start, end=end, tfs=NA)
    checkTrue(nrow(tbl.chipSeq) > 20000)
-   checkEquals(colnames(tbl.chipSeq), c("chr", "start", "end", "tf", "name", "peakStart", "peakEnd"))
+   checkEquals(colnames(tbl.chipSeq), c("chrom", "start", "endpos", "tf", "name", "strand", "peakStart", "peakEnd"))
 
    tbl.chipSeq.stat1 <- getChipSeq(igap, chrom=chromosome, start=start, end=end, tfs="STAT1")
    checkTrue(nrow(tbl.chipSeq.stat1) > 80)
@@ -67,5 +67,15 @@ test_basic <- function()
 
 } # test_basic
 #------------------------------------------------------------------------------------------------------------------------
+test_getVariants <- function()
+{
+   message(sprintf("--- test_getVariants"))
+   names <- getVariantDatasetNames(igap)
+   dataset.name <- "tbl.gwas.igap.snp"
+   checkTrue(dataset.name %in% names)
+   tbl.snps <- getVariantDataset(igap, dataset.name)
+   checkTrue(nrow(tbl.snps) > 40000)
+   checkEquals(colnames(tbl.snps), c("chrom", "start", "end", "rsid", "variant", "reference", "pval", "pScore"))
 
-
+} # test_getVariants
+#------------------------------------------------------------------------------------------------------------------------
