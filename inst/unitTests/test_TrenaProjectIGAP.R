@@ -71,11 +71,31 @@ test_getVariants <- function()
 {
    message(sprintf("--- test_getVariants"))
    names <- getVariantDatasetNames(igap)
-   dataset.name <- "tbl.gwas.igap.snp"
+   dataset.name <- "GWAS.variants"
    checkTrue(dataset.name %in% names)
    tbl.snps <- getVariantDataset(igap, dataset.name)
    checkTrue(nrow(tbl.snps) > 40000)
    checkEquals(colnames(tbl.snps), c("chrom", "start", "end", "rsid", "variant", "reference", "pval", "pScore"))
 
 } # test_getVariants
+#------------------------------------------------------------------------------------------------------------------------
+test_getEnhancerRegionsAllGenes <- function()
+{
+   printf("--- test_getEnhancerRegionsAllGenes")
+   goi <- getSupportedGenes(igap)
+   x <- lapply(goi, function(gene) {
+             setTargetGene(igap, gene)
+             getGeneEnhancersRegion(igap, 5)
+             })
+   regions <- unlist(x)
+   names(regions) <- goi
+   write(regions, file="regions.txt", sep="\n")
+    # https://genome.ucsc.edu/cgi-bin/hgLiftOver
+    # created regions-hg19.txt
+   # hand edit into enhancerRegions.csv
+   # tbl.enhancerRegions <- read.table("enhancerRegions.csv", sep=",", as.is=TRUE)
+   # save(tbl.eh, file="../inst/extdata/misc/tbl.enhancerRegions.RData)
+   # mv that file to inst/extdata/misc/en
+
+} # test_getEnhancerRegionsAllGenes
 #------------------------------------------------------------------------------------------------------------------------
