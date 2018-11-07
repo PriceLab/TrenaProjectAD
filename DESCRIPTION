@@ -1,7 +1,7 @@
 Package: TrenaProjectIGAP
 Title: IGAP gene expression and variant data
 Date: 2018-11-06
-Version: 0.99.8
+Version: 0.99.9
 Authors@R: person("Paul", "Shannon", email = "pshannon@systemsbiology.org", role = c("aut", "cre"))
 Description: Provides a single source for all trena IGAP/AD brain models, from multiple sources, with
    several normalization schemes, along with variants, imputed variants, and sample phenotypes.
