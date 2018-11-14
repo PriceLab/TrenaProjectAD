@@ -34,7 +34,7 @@ TrenaProjectIGAP <- function(quiet=TRUE)
    igap.ad.genes <- sort(c("CR1", "BIN1", "CD2AP", "EPHA1", "CLU", "MS4A6A", "PICALM",
                            "ABCA7", "CD33", "HLA-DRB5", "HLA-DRB1", "PTK2B", "SORL1",
                            "SLC24A4", "RIN3", "DSG2", "INPP5D", "MEF2C", "NME8", "ZCWPW1",
-                           "CELF1", "FERMT2", "CASS4", "APOE", "TOMM40"))
+                           "CELF1", "FERMT2", "CASS4", "APOE", "TOMM40", "TREM2"))
 
    footprintDatabaseNames <- c("brain_wellington_16",
                                "brain_wellington_20",

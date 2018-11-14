@@ -17,7 +17,7 @@ test_basic <- function()
 
    expected <-  c("ABCA7", "APOE", "BIN1", "CASS4", "CD2AP", "CD33", "CELF1", "CLU", "CR1", "DSG2", "EPHA1",
                   "FERMT2", "HLA-DRB1", "HLA-DRB5", "INPP5D", "MEF2C", "MS4A6A", "NME8", "PICALM", "PTK2B",
-                  "RIN3", "SLC24A4", "SORL1", "TOMM40", "ZCWPW1")
+                  "RIN3", "SLC24A4", "SORL1", "TOMM40", "ZCWPW1", "TREM2")
 
    checkTrue(all(expected %in% getSupportedGenes(igap)))
 
@@ -31,7 +31,7 @@ test_basic <- function()
    checkEquals(dim(mtx), c(15167, 264))
 
       # note this next test only works wtih tcx.
-      # TODO: get covariate data fro Mayo cerebellum and rosmap expression matrices
+      # TODO: get covariate data from Mayo cerebellum and rosmap expression matrices
 
    tbl.covar <- getCovariatesTable(igap)
    checkEquals(dim(tbl.covar), c(278, 8))   # includes all samples in mtx retrieved above
@@ -71,7 +71,7 @@ test_getVariants <- function()
 {
    message(sprintf("--- test_getVariants"))
    names <- getVariantDatasetNames(igap)
-   dataset.name <- "GWAS.variants"
+   dataset.name <- "GWAS.snps"
    checkTrue(dataset.name %in% names)
    tbl.snps <- getVariantDataset(igap, dataset.name)
    checkTrue(nrow(tbl.snps) > 40000)
@@ -99,3 +99,5 @@ test_getEnhancerRegionsAllGenes <- function()
 
 } # test_getEnhancerRegionsAllGenes
 #------------------------------------------------------------------------------------------------------------------------
+if(!interactive())
+   runTests()
