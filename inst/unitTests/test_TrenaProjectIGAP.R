@@ -8,12 +8,13 @@ runTests <- function()
 {
    test_basic()
    test_getVariants()
+   test_geneInfoTable()
 
 } # runTests
 #------------------------------------------------------------------------------------------------------------------------
 test_basic <- function()
 {
-   print("---- test_basic")
+   printf("---- test_basic")
 
    expected <-  c("ABCA7", "APOE", "BIN1", "CASS4", "CD2AP", "CD33", "CELF1", "CLU", "CR1", "DSG2", "EPHA1",
                   "FERMT2", "HLA-DRB1", "HLA-DRB5", "INPP5D", "MEF2C", "MS4A6A", "NME8", "PICALM", "PTK2B",
@@ -82,6 +83,7 @@ test_getVariants <- function()
 test_getEnhancerRegionsAllGenes <- function()
 {
    printf("--- test_getEnhancerRegionsAllGenes")
+
    goi <- getSupportedGenes(igap)
    x <- lapply(goi, function(gene) {
              setTargetGene(igap, gene)
@@ -98,6 +100,13 @@ test_getEnhancerRegionsAllGenes <- function()
    # mv that file to inst/extdata/misc/en
 
 } # test_getEnhancerRegionsAllGenes
+#------------------------------------------------------------------------------------------------------------------------
+test_geneInfoTable <- function()
+{
+   printf("--- test_geneInfoTable")
+   checkTrue("data.frame" %in% is(getGeneInfoTable(igap)))
+
+} # test_geneInfoTable
 #------------------------------------------------------------------------------------------------------------------------
 if(!interactive())
    runTests()

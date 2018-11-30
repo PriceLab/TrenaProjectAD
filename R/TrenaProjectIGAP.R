@@ -41,6 +41,9 @@ TrenaProjectIGAP <- function(quiet=TRUE)
                                "brain_hint_16",
                                "brain_hint_20")
 
+     # very temporarily
+   geneInfoTable.path <- system.file(package="TrenaProject", "extdata", "geneInfoTable.RData")
+
    expressionDirectory <- system.file(package="TrenaProjectIGAP", "extdata", "expression")
    variantsDirectory <- system.file(package="TrenaProjectIGAP", "extdata", "variants")
    footprintDatabaseHost <- "khaleesi.systemsbiology.net"
@@ -52,6 +55,7 @@ TrenaProjectIGAP <- function(quiet=TRUE)
 
    .TrenaProjectIGAP(TrenaProject(supportedGenes=igap.ad.genes,
                                   genomeName=genomeName,
+                                  geneInfoTable.path=geneInfoTable.path,
                                   footprintDatabaseHost=footprintDatabaseHost,
                                   footprintDatabaseNames=footprintDatabaseNames,
                                   expressionDirectory=expressionDirectory,
