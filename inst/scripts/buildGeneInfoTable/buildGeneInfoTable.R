@@ -20,12 +20,19 @@ length(ens.genes)    # 17003
 length(geneSymbols)  # 15328
 
 ensembl.hg38 <- useMart("ensembl", dataset="hsapiens_gene_ensembl")
+
 coi <- c("ensembl_gene_id", "entrezgene", "chromosome_name", "transcription_start_site",
-         "strand", "hgnc_symbol", "transcript_biotype", "gene_biotype", "ensembl_transcript_id", "transcript_appris", "transcript_tsl", "transcript_gencode_basic")
+         "strand", "hgnc_symbol", "transcript_biotype", "gene_biotype", "ensembl_transcript_id",
+         "transcript_appris", "transcript_tsl", "transcript_gencode_basic")
+
 key <- "ensembl_gene_id"
 printf("--------- calling biomart for ensg/symbol/chrom/tss mapping")
 
-tbl.geneInfo <- getBM(attributes=coi, filters=key, values=ens.genes, mart=ensembl.hg38)
+trem2.ensg <- "ENSG00000095970"
+
+tbl.geneInfo <- getBM(attributes=coi, filters=key,
+                      values=ens.genes,
+                      mart=ensembl.hg38)
 dim(tbl.geneInfo)
 
 appris <- tbl.geneInfo$transcript_appris
@@ -77,8 +84,51 @@ tbl.1$chrom <- paste("chr", tbl.1$chrom, sep="")
 tbl.geneInfo <- tbl.1
 save(tbl.geneInfo, file="../../extdata/geneInfoTable.RData")
 
+annotated.genes <- tbl.geneInfo$ensg
+coi.2 <- c("ensembl_gene_id", "transcript_start", "transcript_end") # "genomic_coding_start", "genomic_coding_end", "5_utr_start", "cds_start")
 
-  # does this ordering work for MEF2C
+ensg.bug <- "ENSG00000067601"   # no start/end
+
+tbl.geneBounds <- getBM(attributes=coi.2, filters=key,
+                        values=annotated.genes,
+                        mart=ensembl.hg38)
+dim(tbl.geneBounds)
+
+
+endpoints <- function(ensg.id) {
+   tbl <- subset(tbl.geneBounds, ensembl_gene_id==ensg.id)
+   data.frame(ensg=ensg.id,
+              start=min(tbl$transcript_start, na.rm=TRUE),
+              end=max(tbl$transcript_end, na.rm=TRUE),
+              stringsAsFactors=FALSE)
+   }
+
+ensg.with.bounds <- unique(tbl.geneBounds$ensembl_gene_id)
+length(ensg.with.bounds)
+
+x <- lapply(ensg.with.bounds, endpoints)
+tbl.bounds <- do.call(rbind, x)
+dim(tbl.bounds)
+dim(tbl.geneInfo)
+
+tbl.wide <- merge(tbl.geneInfo, tbl.bounds, by="ensg")
+preferred.column.order <- c("ensg",
+                            "chrom",
+                            "start",
+                            "end",
+                            "tss",
+                            "strand",
+                            "geneSymbol",
+                            "entrez",
+                            "appris",
+                            "tsl",
+                            "transcript",
+                            "type"
+                            )
+tbl.geneInfo <- tbl.wide[, preferred.column.order]
+save(tbl.geneInfo, file="../../extdata/geneInfoTable.RData")
+
+# does this ordering work for MEF2C
 # tbl.mef2c <- subset(tbl.geneInfo, hgnc_symbol=="MEF2C")
 # x <- with(tbl.mef2c, order(appris, tsl, decreasing=FALSE))
 # tbl.mef2c <- tbl.mef2c[x,]
