@@ -2,15 +2,15 @@
 #' @import methods
 #' @import TrenaProject
 #'
-#' @title TrenaProjectIGAP-class
+#' @title TrenaProjectAD-class
 #'
-#' @name TrenaProjectIGAP-class
-#' @rdname TrenaProjectIGAP-class
-#' @aliases TrenaProjectIGAP
-#' @exportClass TrenaProjectIGAP
+#' @name TrenaProjectAD-class
+#' @rdname TrenaProjectAD-class
+#' @aliases TrenaProjectAD
+#' @exportClass TrenaProjectAD
 #'
 
-.TrenaProjectIGAP <- setClass("TrenaProjectIGAP",
+.TrenaProjectAD <- setClass("TrenaProjectAD",
                                contains="TrenaProject")
 
 #----------------------------------------------------------------------------------------------------
@@ -23,10 +23,10 @@
 #'
 #' @export
 #'
-#' @return An object of the TrenaProjectIGAP class
+#' @return An object of the TrenaProjectAD class
 #'
 
-TrenaProjectIGAP <- function(quiet=TRUE)
+TrenaProjectAD <- function(quiet=TRUE)
 
 {
    genomeName <- "hg38"
@@ -44,16 +44,16 @@ TrenaProjectIGAP <- function(quiet=TRUE)
      # very temporarily
    geneInfoTable.path <- system.file(package="TrenaProject", "extdata", "geneInfoTable.RData")
 
-   expressionDirectory <- system.file(package="TrenaProjectIGAP", "extdata", "expression")
-   variantsDirectory <- system.file(package="TrenaProjectIGAP", "extdata", "variants")
+   expressionDirectory <- system.file(package="TrenaProjectAD", "extdata", "expression")
+   variantsDirectory <- system.file(package="TrenaProjectAD", "extdata", "variants")
    footprintDatabaseHost <- "khaleesi.systemsbiology.net"
 
-   covariatesFile <- system.file(package="TrenaProjectIGAP", "extdata", "covariates", "covariates.RData")
+   covariatesFile <- system.file(package="TrenaProjectAD", "extdata", "covariates", "covariates.RData")
    stopifnot(file.exists(expressionDirectory))
    stopifnot(file.exists(variantsDirectory))
    stopifnot(file.exists(covariatesFile))
 
-   .TrenaProjectIGAP(TrenaProject(supportedGenes=igap.ad.genes,
+   .TrenaProjectAD(TrenaProject(supportedGenes=igap.ad.genes,
                                   genomeName=genomeName,
                                   geneInfoTable.path=geneInfoTable.path,
                                   footprintDatabaseHost=footprintDatabaseHost,
@@ -64,5 +64,5 @@ TrenaProjectIGAP <- function(quiet=TRUE)
                                   quiet=quiet
                                   ))
 
-} # TrenaProjectIGAP, the constructor
+} # TrenaProjectAD, the constructor
 #----------------------------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
-Package: TrenaProjectIGAP
-Title: IGAP gene expression and variant data
+Package: TrenaProjectAD
+Title: AD gene expression and variant data
 Date: 2018-11-30
 Version: 0.99.15
 Authors@R: person("Paul", "Shannon", email = "pshannon@systemsbiology.org", role = c("aut", "cre"))
@@ -10,4 +10,4 @@ Depends: R (>= 3.5.0), TrenaProject
 License: Apache 2.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
