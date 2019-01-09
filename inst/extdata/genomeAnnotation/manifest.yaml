@@ -1,0 +1,15 @@
+tbl.hiC.psychEncode.RData:
+  category: enhancers
+  format: bed3 + value + associatedGene
+  displayName: GeneHancer (all tissues)
+  variableName: tbl
+  columns:
+    - chrom: character
+    - start:  integer
+    - end: integer
+    - type: character
+    - combinedScore: numeric
+    - geneSymbol: character
+
+
+
