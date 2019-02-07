@@ -43,7 +43,7 @@ test_basic <- function()
    checkEquals(getTargetGene(igap), "INPP5D")
 
    tbl.transcripts <- getTranscriptsTable(igap)
-   checkTrue(nrow(tbl.transcripts) >= 3)
+   checkTrue(nrow(tbl.transcripts) == 1)
 
    tbl.enhancers <- getEnhancers(igap)
    checkEquals(colnames(tbl.enhancers), c("chrom", "start", "end", "type", "combinedScore", "geneSymbol"))
