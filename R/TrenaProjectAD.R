@@ -11,7 +11,7 @@
 #'
 
 .TrenaProjectAD <- setClass("TrenaProjectAD",
-                               contains="TrenaProject")
+                               contains="TrenaProjectHG38")
 
 #----------------------------------------------------------------------------------------------------
 #' Define an object of class TrenaProjectPlacneta
@@ -29,8 +29,6 @@
 TrenaProjectAD <- function(quiet=TRUE)
 
 {
-   genomeName <- "hg38"
-
    igap.ad.genes <- sort(c("CR1", "BIN1", "CD2AP", "EPHA1", "CLU", "MS4A6A", "PICALM",
                            "ABCA7", "CD33", "HLA-DRB5", "HLA-DRB1", "PTK2B", "SORL1",
                            "SLC24A4", "RIN3", "DSG2", "INPP5D", "MEF2C", "NME8", "ZCWPW1",
@@ -42,7 +40,7 @@ TrenaProjectAD <- function(quiet=TRUE)
                                "brain_hint_20")
 
      # very temporarily
-   geneInfoTable.path <- system.file(package="TrenaProject", "extdata", "geneInfoTable.RData")
+   geneInfoTable.path <- system.file(package="TrenaProjectHG38", "extdata", "geneInfoTable.RData")
 
    expressionDirectory <- system.file(package="TrenaProjectAD", "extdata", "expression")
    variantsDirectory <- system.file(package="TrenaProjectAD", "extdata", "variants")
@@ -53,16 +51,15 @@ TrenaProjectAD <- function(quiet=TRUE)
    stopifnot(file.exists(variantsDirectory))
    stopifnot(file.exists(covariatesFile))
 
-   .TrenaProjectAD(TrenaProject(supportedGenes=igap.ad.genes,
-                                  genomeName=genomeName,
-                                  geneInfoTable.path=geneInfoTable.path,
-                                  footprintDatabaseHost=footprintDatabaseHost,
-                                  footprintDatabaseNames=footprintDatabaseNames,
-                                  expressionDirectory=expressionDirectory,
-                                  variantsDirectory=variantsDirectory,
-                                  covariatesFile=covariatesFile,
-                                  quiet=quiet
-                                  ))
+   .TrenaProjectAD(TrenaProjectHG38(supportedGenes=igap.ad.genes,
+                                    geneInfoTable.path=geneInfoTable.path,
+                                    footprintDatabaseHost=footprintDatabaseHost,
+                                    footprintDatabaseNames=footprintDatabaseNames,
+                                    expressionDirectory=expressionDirectory,
+                                    variantsDirectory=variantsDirectory,
+                                    covariatesFile=covariatesFile,
+                                    quiet=quiet
+                                    ))
 
 } # TrenaProjectAD, the constructor
 #----------------------------------------------------------------------------------------------------
