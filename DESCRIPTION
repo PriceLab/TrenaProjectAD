@@ -1,8 +1,9 @@
 Package: TrenaProjectAD
 Title: AD gene expression and variant data
-Date: 2019-04-22
-Version: 0.99.24
-Authors@R: person("Paul", "Shannon", email = "pshannon@systemsbiology.org", role = c("aut", "cre"))
+Date: 2019-04-29
+Version: 0.99.25
+Author: Paul Shannon
+Maintainer: Paul Shannon <paul.thurmond.shannon@gmail.com>
 Description: Provides a single source for all trena IGAP/AD brain models, from multiple sources, with
    several normalization schemes, along with variants, imputed variants, and sample phenotypes.
 Imports: methods

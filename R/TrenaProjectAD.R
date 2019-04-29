@@ -51,7 +51,8 @@ TrenaProjectAD <- function(quiet=TRUE)
    stopifnot(file.exists(variantsDirectory))
    stopifnot(file.exists(covariatesFile))
 
-   .TrenaProjectAD(TrenaProjectHG38(supportedGenes=igap.ad.genes,
+   .TrenaProjectAD(TrenaProjectHG38(projectName="TrenaProjectAD",
+                                    supportedGenes=igap.ad.genes,
                                     geneInfoTable.path=geneInfoTable.path,
                                     footprintDatabaseHost=footprintDatabaseHost,
                                     footprintDatabaseNames=footprintDatabaseNames,
