@@ -34,31 +34,22 @@ TrenaProjectAD <- function(quiet=TRUE)
                            "SLC24A4", "RIN3", "DSG2", "INPP5D", "MEF2C", "NME8", "ZCWPW1",
                            "CELF1", "FERMT2", "CASS4", "APOE", "TOMM40", "TREM2"))
 
+   footprintDatabaseHost <- "khaleesi.systemsbiology.net"
+   footprintDatabasePort <- 5432
+
    footprintDatabaseNames <- c("brain_wellington_16",
                                "brain_wellington_20",
                                "brain_hint_16",
                                "brain_hint_20")
 
-     # very temporarily
-   geneInfoTable.path <- system.file(package="TrenaProjectHG38", "extdata", "geneInfoTable.RData")
-
-   expressionDirectory <- system.file(package="TrenaProjectAD", "extdata", "expression")
-   variantsDirectory <- system.file(package="TrenaProjectAD", "extdata", "variants")
-   footprintDatabaseHost <- "khaleesi.systemsbiology.net"
-
-   covariatesFile <- system.file(package="TrenaProjectAD", "extdata", "covariates", "covariates.RData")
-   stopifnot(file.exists(expressionDirectory))
-   stopifnot(file.exists(variantsDirectory))
-   stopifnot(file.exists(covariatesFile))
+   dataDirectory <- system.file(package="TrenaProjectAD", "extdata")
 
    .TrenaProjectAD(TrenaProjectHG38(projectName="TrenaProjectAD",
                                     supportedGenes=igap.ad.genes,
-                                    geneInfoTable.path=geneInfoTable.path,
                                     footprintDatabaseHost=footprintDatabaseHost,
+                                    footprintDatabasePort=footprintDatabasePort,
                                     footprintDatabaseNames=footprintDatabaseNames,
-                                    expressionDirectory=expressionDirectory,
-                                    variantsDirectory=variantsDirectory,
-                                    covariatesFile=covariatesFile,
+                                    packageDataDirectory=dataDirectory,
                                     quiet=quiet
                                     ))
 
