@@ -31,6 +31,55 @@ if(!exists("fimo")){
    }
 
 #------------------------------------------------------------------------------------------------------------------------
+createGrid <- function(models, tfs.to.use)
+{
+   model.count <- length(models)
+   all.tfs <- unique(unlist(lapply(models[1:model.count], function(x) head(x$model$gene, n=tfs.to.use))))
+   model.names <- names(models)[1:model.count]
+   grid <- matrix(0, nrow=length(all.tfs), ncol=model.count, dimnames=list(all.tfs, model.names))
+
+   for(i in seq_len(model.count)){
+      model.name <- names(models)[i]
+      topRankedTFs <- head(models[[i]]$model$gene, n=tfs.to.use)
+        #
+      rank <- seq_len(tfs.to.use)   # 1, 2, 3, ... tfs.to.use
+        # make high rank correspond to high numbers:
+      rank.inverted <- (tfs.to.use + 1) - rank
+      grid[topRankedTFs, model.name] <- rank.inverted
+      }
+
+   grid
+
+} # createGrid
+#------------------------------------------------------------------------------------------------------------------------
+test_createGrid <- function()
+{
+   print("--- test_createGrid")
+
+   load("models.RData")
+   grid <- createGrid(models, 5)
+   grid <- createGrid(models, 10)
+   grid <- createGrid(models, 15)
+   colnames(grid) <- c("Gene Expression Only",
+                       "FIMO < 1e-4, TSS +1500bp -500bp",
+                       "FIMO < 1e-3, TSS +1500bp -500bp",
+                       "FIMO < 1e-4, TSS +/-5kb",
+                       "FIMO < 1e-3, TSS +/-5kb",
+                       "Footprints (fp), FIMO < 1e-4, +1500bp -500bp",
+                       "fp, FIMO < 1e-3, +1500bp -500bp",
+                       "fp, FIMO < 1e-4, +/-5kb",
+                       "fp, FIMO < 1e-3, +/-5kb",
+                       "fp in all promoters & enhancers, FIMO < 1e-4",
+                       "fp in all promoters & enhancers, FIMO < 1e-3")
+
+   heatmap.2(t(grid), trace="none", margins=c(20,40), col=c("#dddddd", rev(heat.colors(15))),
+             density.info="none", dendrogram="none", Rowv=FALSE,
+             key=FALSE,
+             cexRow=2,
+             cexCol=2)
+
+} # test_createGrid
+#------------------------------------------------------------------------------------------------------------------------
 orig.getFootprintRegions <- function(chromosome, start, end)
 {
    query <- sprintf("select * from regions where chrom='%s' and start >= %d and endpos <= %d", chromosome, start, end)
@@ -365,76 +414,108 @@ buildFimoModels <- function()
 
    tbl.regions.1 <- data.frame(chrom=chromosome, start=TSS-500, end=TSS+1500, stringsAsFactors=FALSE)
 
-   x.1 <- fimoRegionsModel(tbl.regions.1, 1e-4)
+   #x.1 <- fimoRegionsModel(tbl.regions.1, 1e-4)
+   #lapply(x.1, dim)
+   x.1 <- fimoBatchModel(tbl.regions.1, 1e-4)
    lapply(x.1, dim)
-   x.1b <- fimoBatchModel(tbl.regions.1, 1e-4)
-   lapply(x.1b, dim)
 
-   x.2 <- fimoRegionsModel(tbl.regions.1, 1e-3)
+   x.2 <- fimoBatchModel(tbl.regions.1, 1e-3)
    lapply(x.2, dim)
 
    tbl.regions.2 <- data.frame(chrom=chromosome, start=TSS-5000, end=TSS+5000, stringsAsFactors=FALSE)
-   x.3 <- fimoRegionsModel(tbl.regions.2, 1e-4)
+   x.3 <- fimoBatchModel(tbl.regions.2, 1e-4)
    lapply(x.3, dim)
 
-   x.4 <- fimoRegionsModel(tbl.regions.2, 1e-3)
+   x.4 <- fimoBatchModel(tbl.regions.2, 1e-3)
    lapply(x.4, dim)
 
    tbl.fp.1 <- getFootprintRegions(tbl.regions.1) # ith(tbl.regions.1, getFootprintRegions(chrom, start, end))
    dim(tbl.fp.1)
-   x.5 <- fimoRegionsModel(tbl.fp.1, 1e-4)
+   x.5 <- fimoBatchModel(tbl.fp.1, 1e-4)
    lapply(x.5, dim)
 
-   x.6 <- fimoRegionsModel(tbl.fp.1, 1e-3)
+   x.6 <- fimoBatchModel(tbl.fp.1, 1e-3)
    lapply(x.6, dim)
 
    tbl.fp.2 <- getFootprintRegions(tbl.regions.2)
    dim(tbl.fp.2)
-   x.7 <- fimoRegionsModel(tbl.fp.2, 1e-4)
+   x.7 <- fimoBatchModel(tbl.fp.2, 1e-4)
    lapply(x.7, dim)
 
-   x.8 <- fimoRegionsModel(tbl.fp.2, 1e-3)
+   x.8 <- fimoBatchModel(tbl.fp.2, 1e-3)
    lapply(x.8, dim)
 
       # now bring in genehancer.  first, use the "all tissues" default
    tbl.enhancers <- getEnhancers(tp)
    tbl.fp.gh.all <- getFootprintRegions(tbl.enhancers)
    dim(tbl.fp.gh.all)
-   x.9 <- fimoRegionsModel(tbl.fp.gh.all, 1e-4)
+   x.9 <- fimoBatchModel(tbl.fp.gh.all, 1e-4)
    lapply(x.9, dim)
 
-   x.10 <- fimoRegionsModel(tbl.fp.gh.all, 1e-3)
+   x.10 <- fimoBatchModel(tbl.fp.gh.all, 1e-3)
    lapply(x.10, dim)
 
-   tfs.degenerate <- head(x.0$model$gene, n=20)
-   tfs.promoter.short.fimo4 <- head(x.1$model$gene, n=20)
-   tfs.promoter.short.fimo3 <- head(x.2$model$gene, n=20)
 
-   tfs.promoter.10k.fimo4 <- head(x.3$model$gene, n=20)
-   tfs.promoter.10k.fimo3 <- head(x.4$model$gene, n=20)
-
-   tfs.promoter.fp.short.fimo4 <- head(x.5$model$gene, n=20)
-   tfs.promoter.fp.short.fimo3 <- head(x.6$model$gene, n=20)
-   tfs.promoter.fp.10k.fimo4 <- head(x.7$model$gene, n=20)
-   tfs.promoter.fp.10k.fimo3 <- head(x.8$model$gene, n=20)
-
-   tfs.enhancers.fp.fimo4 <- head(x.9$model$gene, n=20)
-   tfs.enhancers.fp.fimo3 <- head(x.10$model$gene, n=20)
-
-   all.tf.sets <- list(a=tfs.degenerate,
-                       b=tfs.promoter.short.fimo4,
-                       c=tfs.promoter.short.fimo3,
-                       d=tfs.promoter.10k.fimo4,
-                       e=tfs.promoter.10k.fimo3,
-                       f=tfs.promoter.fp.short.fimo4,
-                       g=tfs.promoter.fp.short.fimo3,
-                       h=tfs.promoter.fp.10k.fimo4,
-                       i=tfs.promoter.fp.10k.fimo3,
-                       j=tfs.enhancers.fp.fimo4,
-                       l=tfs.enhancers.fp.fimo3)
+   models <- list(noGenome=x.0,
+                  m2kb.f4=x.1,
+                  m2kb.f3=x.2,
+                  m10kb.f4=x.3,
+                  m10kb.f3=x.4,
+                  m2kb.fp.f4=x.5,
+                  m2kb.fp.f3=x.6,
+                  m10kb.fp.f4=x.7,
+                  m10kb.fp.f3=x.8,
+                  mgh.fp.f4=x.9,
+                  mgh.fp.f3=x.10)
+   save(models, file="models.RData")
 
 
-   tfs.shared <- Reduce(intersect, list(tfs.degenerate,
+
+   tfs.degenerate <- head(x.0$model$gene, n=15)
+   tfs.promoter.short.fimo4 <- head(x.1$model$gene, n=15)
+   tfs.promoter.short.fimo3 <- head(x.2$model$gene, n=15)
+
+   tfs.promoter.10k.fimo4 <- head(x.3$model$gene, n=15)
+   tfs.promoter.10k.fimo3 <- head(x.4$model$gene, n=15)
+
+   tfs.promoter.fp.short.fimo4 <- head(x.5$model$gene, n=15)
+   tfs.promoter.fp.short.fimo3 <- head(x.6$model$gene, n=15)
+   tfs.promoter.fp.10k.fimo4 <- head(x.7$model$gene, n=15)
+   tfs.promoter.fp.10k.fimo3 <- head(x.8$model$gene, n=15)
+
+   tfs.enhancers.fp.fimo4 <- head(x.9$model$gene, n=15)
+   tfs.enhancers.fp.fimo3 <- head(x.10$model$gene, n=15)
+
+   all.tf.sets <- list(tf0=tfs.degenerate,
+                       tf1=tfs.promoter.short.fimo4,
+                       tf2=tfs.promoter.short.fimo3,
+                       tf3=tfs.promoter.10k.fimo4,
+                       tf4=tfs.promoter.10k.fimo3,
+                       tf5=tfs.promoter.fp.short.fimo4,
+                       tf6=tfs.promoter.fp.short.fimo3,
+                       tf7=tfs.promoter.fp.10k.fimo4,
+                       tf8=tfs.promoter.fp.10k.fimo3,
+                       tf9=tfs.enhancers.fp.fimo4,
+                       tf10=tfs.enhancers.fp.fimo3)
+   model.names <-list(tf0="noGenome",
+                       tf1="2kb,f4",
+                       tf2="2kb.f3",
+                       tf3="10kb.f4",
+                       tf4="10kb.f3",
+                       tf5="2kb,fp,f4",
+                       tf6="2kb,fp,f3",
+                       tf7="10kb,fp,f4",
+                       tf8="10kb,fp,f3",
+                       tf9="gh,fp,f4",
+                       tf10="gh,fp,f3")
+
+   tfs.all <- unique(Reduce(c, all.tf.sets))
+   tfs.shared <- Reduce(intersect, all.tf.sets)
+
+   save(all.tf.sets, model.names, tfs.all, tfs.shared, file="11model-summary.RData")
+
+
+   list(tfs.degenerate,
                                         tfs.promoter.short.fimo4,
                                         tfs.promoter.short.fimo3,
                                         tfs.promoter.10k.fimo4,
@@ -473,10 +554,10 @@ buildFimoModels <- function()
 
    #tbl.fp.gh.brain <- getFootprintRegions(tbl.enhancers)
    #dim(tbl.fp.gh.brain)
-   #x.9 <- fimoRegionsModel(tbl.fp.gh.brain, 1e-4)
+   #x.9 <- fimoBatchModel(tbl.fp.gh.brain, 1e-4)
    #lapply(x.10, dim)
 
-   #x.10 <- fimoRegionsModel(tbl.fp.gh.brain, 1e-3)
+   #x.10 <- fimoBatchModel(tbl.fp.gh.brain, 1e-3)
    #lapply(x.10, dim)
 
 } # buildFimoModels
