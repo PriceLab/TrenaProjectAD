@@ -68,7 +68,7 @@ test_basic <- function()
    tbl.chipSeq <- getChipSeq(tp, chrom=chromosome, start=start, end=end, tfs=NA)
    dim(tbl.chipSeq)
    checkTrue(nrow(tbl.chipSeq) > 4000)
-   checkEquals(colnames(tbl.chipSeq), c("chrom", "start", "endpos", "tf", "name", "strand", "peakStart", "peakEnd"))
+   checkEquals(colnames(tbl.chipSeq), c("chrom", "start", "end", "tf", "name", "strand", "peakStart", "peakEnd"))
 
 } # test_basic
 #------------------------------------------------------------------------------------------------------------------------
