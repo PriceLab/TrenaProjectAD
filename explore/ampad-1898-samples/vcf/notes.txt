@@ -1,0 +1,12 @@
+docker run -it \
+   --entrypoint /bin/bash \
+   -v /tmp/docker-paul:/tmp \
+   sagebionetworks/synapsepythonclient
+
+--- sample bash and python run
+export PS1='DOCKER.\W> '
+python3
+import synapseclient
+syn = synapseclient.login("paul-shannon", password="passwordGoesHere"))
+x = syn.get('syn1899498', downloadLocation="/tmp")  # quick and easy
+
