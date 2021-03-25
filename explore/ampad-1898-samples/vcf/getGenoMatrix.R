@@ -14,7 +14,7 @@ file.exists(vcf.file)
 file.exists(sprintf("%s.tbi", vcf.file))
 vcf <- readVcf(vcf.file, "hg19", regions)
 length(vcf)
-dim(geno(vcf)$GT)  # 45 1894
+dim(geno(vcf)$GT)  # 5 1894
 
 mtx.geno <- geno(vcf)$GT
 
@@ -62,9 +62,28 @@ tbl$rs7412   <- "C"
 tbl[rs7412.variants, "rs7412"] <- "T"
 
 tbl$code <- 33
-tbl[intersect(rs429358.variants, rs7412.wt), "code"] <- 44          # CC
-tbl[intersect(rs429358.variants, rs7412.variants), "code"] <- 11    # CT
-tbl[intersect(rs429358.wt, rs7412.variants), "code"] <- 22          # TT
+tbl[intersect(rs429358.variants, rs7412.wt), "code"] <- 34          # CC
+tbl[intersect(rs429358.variants, rs7412.variants), "code"] <- 24    # CT
+tbl[intersect(rs429358.wt, rs7412.variants), "code"] <- 23          # TT
 
 
+metadata.file <- "../../WGS-Harmonization/metadata-all/MayoRNAseq_individual_metadata.csv"
+file.exists(metadata.file)
+tbl.md <- read.table(metadata.file, sep=",", header=TRUE, as.is=TRUE)
+
+merge.indices <- match(rownames(tbl), tbl.md$individualID)
+tbl.combined <- cbind(tbl, tbl.md[merge.indices,])
+rownames(tbl.combined) <- NULL
+
+colanmes(tbl.combined)
+
+coi <- c("individualID", "19:45411941_T/C", "19:45412079_C/T", "rs429358", "rs7412", "code",
+         "individualIdSource", "species", "sex", "race", "ethnicity", "yearsEducation",
+         "ageDeath", "causeDeath", "mannerDeath", "apoeGenotype", "pmi", "pH", "brainWeight",
+         "diagnosis", "diagnosisCriteria", "CERAD", "Braak", "thal")
+
+tbl.combined <- tbl.combined[, coi]
+
+write.table(tbl.combined, file="mayoPathAgingSamplesAnnotated.tsv", sep="\t", quote=FALSE,
+            row.names=FALSE, col.names=TRUE)
 
