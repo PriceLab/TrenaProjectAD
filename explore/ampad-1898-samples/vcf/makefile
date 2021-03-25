@@ -10,6 +10,18 @@ bash:
            -v /tmp/docker-paul:/tmp \
            sagebionetworks/synapsepythonclient
 
+khaleesi-bash:
+	sudo docker run -it \
+           --entrypoint /bin/bash \
+           -v /tmp/docker-paul:/tmp \
+           sagebionetworks/synapsepythonclient
+
+
+khaleesi-bash-new:
+	sudo docker run -it \
+           --entrypoint /bin/bash \
+           -v /tmp/docker-paul:/tmp \
+	    docker.synapse.org/syn25326461/synpy-1128
 
 
 #------------- notes
