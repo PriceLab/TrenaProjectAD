@@ -1,10 +1,18 @@
-
+library(VariantAnnotation)
 file <- "NIA_JG_1898_samples_GRM_WGS_b37_JointAnalysis01_2017-12-08_7.recalibrated_variants.Broad_Rush.vcf.gz"
 vcf.path <- file.path("/proj/price4/cory/AMP-AD_VCF/ROSMAP", file)
 file.exists(vcf.path)
 
 samples.vcf <- samples(scanVcfHeader(vcf.path))
 length(samples.vcf)   # 1196
+
+tbl.ids <- data.frame(vcf=samples.vcf, stringsAsFactors=FALSE)
+tbl.ids2 <- merge(tbl.ids, tbl.biospecimen[, c("specimenID", "organ", "tissue", "individualID")], by.x="vcf", by.y="specimenID", all.x=TRUE)
+   # 45 vcf sample ids have no biospecimen entry.
+tbl.ids3 <- merge(tbl.ids2, tbl.clinical, by="individualID", all.x=TRUE)
+dim(tbl.ids3)
+
+
 
 tbl.biospecimen <- read.table("metadata-all/ROSMAP_biospecimen_metadata.csv", sep=",", header=TRUE, as.is=TRUE)
 tbl.clinical <-  read.table("metadata-all/ROSMAP_clinical.csv", sep=",", as.is=TRUE, header=TRUE, nrow=-1)
