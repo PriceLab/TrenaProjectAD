@@ -1,0 +1,5 @@
+SampleID,Tissue,Factor,Condition,Treatment,Replicate,ControlID,Peaks,PeakCaller
+psp.04,CER,XYZ,PSP,None,1,f0,psp_19_04.bed,bed
+psp.11,CER,XYZ,PSP,None,2,f0,psp_19_11.bed,bed
+ctl.02,CER,ABC,CTL,None,1,f1,ctl_19_02.bed,bed
+ctl.20,CER,ABC,CTL,None,2,f1,ctl_19_20.bed,bed
