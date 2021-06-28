@@ -1,0 +1,1306 @@
+Query SNP: rs113020870 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+1	1049997	1	1	rs113020870	C	T	0.00	0.01	0.00	0.00			IPSC		CTCF	Hic1,Pax-5,Znf143				AGRN	synonymous
+
+
+Query SNP: rs679515 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+1	207505962	0.8	0.97	rs4844600	A	C,G	0.94	0.91	0.62	0.79										CR1	missense
+1	207510847	0.95	0.97	rs12037841	T	G	0.98	0.92	0.97	0.81						6 altered motifs				CR1	intronic
+1	207512441	0.86	0.98	rs4266886	T	C	0.96	0.91	0.64	0.80						SRF				CR1	intronic
+1	207512620	0.95	0.97	rs4562624	A	C	0.99	0.92	0.97	0.81						Hoxa13,Hoxc10,Nkx2				CR1	intronic
+1	207518704	0.95	0.97	rs6656401	A	G	0.99	0.92	0.97	0.81		BLD		BLD		RXRA,YY1	2 hits	5 hits	1 hit	CR1	intronic
+1	207524699	0.85	0.99	rs6661489	T	C	0.96	0.92	0.66	0.79			BRN, BLD			TATA			4 hits	CR1	intronic
+1	207564732	0.93	0.99	rs7515905	T	C	0.97	0.92	0.66	0.80						6 altered motifs				CR1	intronic
+1	207573951	0.93	1	rs1752684	A	G	0.95	0.92	0.65	0.80			BLD			4 altered motifs				CR1	intronic
+1	207577223	1	1	rs679515	T	C	0.99	0.93	0.97	0.81										CR1	intronic
+1	207611623	0.92	1	rs3818361	A	G	0.58	0.90	0.67	0.80			BLD			Nanog,Sox,TCF4	2 hits	7 hits	3 hits	CR1	intronic
+1	207612944	0.9	0.99	rs6701713	A	G	0.58	0.90	0.67	0.80		ESDR	ESC	IPSC	CTCF,RAD21,SETDB1	5 altered motifs	1 hit	6 hits	3 hits	CR1	intronic
+1	207613197	0.9	0.99	rs2093761	A	G	0.82	0.91	0.67	0.80		ESDR	ESC		SETDB1	E4F1,Nanog,Pbx3				CR1	intronic
+1	207613483	0.9	0.99	rs2093760	A	G	0.58	0.90	0.67	0.80									2 hits	CR1	intronic
+1	207621975	0.81	0.93	rs2296160	A	G,T	0.81	0.92	0.67	0.80								4 hits	1 hit	CR1	missense
+1	207623552	0.81	0.93	rs10863417	A	T	0.96	0.92	0.66	0.80						Mtf1				CR1	intronic
+1	207624893	0.8	0.93	rs10863418	C	G	0.34	0.88	0.67	0.80						LBP-1			2 hits	CR1	intronic
+1	207626529	0.81	0.93	rs10863420	A	C	0.81	0.92	0.67	0.80				4 tissues	20 bound proteins					CR1	intronic
+1	207627044	0.8	0.93	rs1830763	C	A	0.92	0.91	0.67	0.80			BLD, PLCNT			18 altered motifs				CR1	intronic
+1	207627210	0.8	0.93	rs1408078	T	C	0.93	0.92	0.67	0.80			BLD, PLCNT	BLD		Egr-1,PPAR,TEF-1		4 hits	1 hit	CR1	intronic
+1	207629207	0.85	0.93	rs4844610	A	C	0.99	0.93	0.97	0.81			4 tissues			BCL		4 hits	1 hit	CR1	intronic
+1	207630796	0.81	0.93	rs1408077	A	C	0.92	0.92	0.67	0.80			ESC, IPSC, BLD	BLD				10 hits	1 hit	CR1	intronic
+0.81	0.93	rs111958034	G	A	0.92	0.92	0.67	0.80		ESC	ESC, IPSC		CEBPB	HNF1,Pou2f2,Pou3f3				CR1	intronic
+
+
+Query SNP: rs115186657 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+2	105618971	1	1	rs115186657	A	C	0.00	0.00	0.00	0.01			ESDR			AP-1				126kb 5' of NCK2
+
+
+Query SNP: rs4663105 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+2	127133851	1	1	rs4663105	A	C	0.65	0.46	0.41	0.42			PLCNT, BLD			CACD,Klf4			16 hits	26kb 5' of BIN1
+2	127135234	0.92	0.99	rs6733839	C	T	0.42	0.45	0.38	0.40			6 tissues	5 tissues		4 altered motifs	2 hits		16 hits	28kb 5' of BIN1
+
+
+Query SNP: rs7597763 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+2	233159422	0.82	0.94	rs67498812	A	G	0.10	0.34	0.01	0.48						AP-2rep,GR			2 hits	INPP5D
+2	233159830	0.82	0.94	rs35349669	C	T	0.10	0.34	0.01	0.48						AP-2rep,RBP-Jkappa	1 hit		2 hits	INPP5D
+2	233160059	0.82	0.94	rs28669088	C	T	0.10	0.34	0.01	0.48						ERalpha-a,NR4A,RXRA			2 hits	INPP5D
+2	233160620	0.82	0.94	rs28534487	C	A	0.10	0.35	0.01	0.48						5 altered motifs			2 hits	INPP5D
+2	233160677	0.82	0.94	rs28655385	C	A	0.10	0.34	0.01	0.48						EBF,Foxa			2 hits	INPP5D
+2	233161118	0.8	0.94	rs28478933	C	A	0.10	0.34	0.01	0.48						Smad3			2 hits	INPP5D
+2	233161165	0.82	0.94	rs28429042	C	T	0.05	0.33	0.01	0.48						Esr2,TLX1::NFIC			2 hits	INPP5D
+2	233161334	0.85	0.95	rs28631646	C	T	0.10	0.34	0.01	0.47						CDP,LXR			2 hits	INPP5D
+2	233161396	0.85	0.95	rs28539971	G	A	0.09	0.34	0.01	0.47			SPLN			Dbx1,Ncx,TFIIA			2 hits	INPP5D
+2	233161439	0.85	0.95	rs35877172	C	T	0.09	0.34	0.01	0.47			SPLN			4 altered motifs			2 hits	INPP5D
+2	233161525	0.85	0.95	rs28605534	G	C	0.09	0.34	0.01	0.47			SPLN			Eomes,TBX5			2 hits	INPP5D
+2	233161544	0.85	0.95	rs28609111	G	A	0.09	0.34	0.01	0.47			SPLN			NF-kappaB,Rad21			2 hits	INPP5D
+2	233161587	0.85	0.95	rs28576692	T	C	0.09	0.34	0.01	0.47			BLD, SPLN			RFX5,RP58			2 hits	INPP5D
+2	233162595	0.84	0.94	rs7568027	A	G	0.10	0.34	0.01	0.47			BLD			6 altered motifs			2 hits	INPP5D
+2	233162603	0.84	0.94	rs7559212	A	C	0.10	0.34	0.01	0.47			BLD			4 altered motifs			2 hits	INPP5D
+2	233165655	0.88	0.96	rs7607736	C	T	0.06	0.33	0.01	0.47		BLD, MUS	15 tissues	BLD,BLD,BLD		Cdx,Foxp1			2 hits	INPP5D
+2	233166171	0.96	0.99	rs6715767	G	A	0.05	0.32	0.01	0.45		7 tissues	14 tissues	21 tissues	9 bound proteins	Myb,RFX5,Zic			2 hits	INPP5D
+2	233166618	0.96	0.99	rs7558417	C	T	0.05	0.32	0.01	0.45		BLD, CRVX, BONE	11 tissues	4 tissues	AP2ALPHA,AP2GAMMA	13 altered motifs			3 hits	INPP5D
+2	233167045	0.95	0.99	rs7570320	C	A	0.05	0.32	0.01	0.45		BLD	BLD, GI, CRVX			THAP1			3 hits	INPP5D
+2	233168576	0.94	0.97	rs7577360	G	A	0.05	0.33	0.01	0.46			4 tissues	BRN,BRN		Pbx3,STAT,TLX1::NFIC			3 hits	INPP5D
+2	233168594	0.94	0.97	rs7581787	A	C	0.05	0.33	0.01	0.46			4 tissues	BRN,BRN		Hoxc10			3 hits	INPP5D
+2	233169410	0.96	0.99	rs11386687	AC	A	0.05	0.32	0.01	0.45			5 tissues			6 altered motifs			3 hits	INPP5D
+2	233169936	0.95	0.98	rs10754947	G	A	0.05	0.32	0.01	0.45				BLD		CHD2,RREB-1,SREBP			2 hits	INPP5D
+2	233171907	0.96	0.99	rs6431237	A	G	0.05	0.32	0.01	0.45						AP-2rep,Rad21			2 hits	INPP5D
+2	233172293	0.96	0.99	rs6431239	G	A	0.06	0.32	0.01	0.45			ESDR						2 hits	INPP5D
+2	233172583	0.96	0.99	rs58724346	GA	G	0.05	0.32	0.01	0.45						6 altered motifs			2 hits	INPP5D
+2	233173738	0.96	0.99	rs7568389	C	G	0.05	0.32	0.01	0.45									3 hits	INPP5D
+2	233173931	1	1	rs7597763	A	C	0.06	0.32	0.01	0.46						14 altered motifs			2 hits	INPP5D
+
+
+Query SNP: rs4504245 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+4	11013198	1	1	rs4504245	A	G	0.88	0.78	0.83	0.79			BLD, THYM, GI			6 altered motifs				316kb 3' of RP11-61G19.1
+
+
+Query SNP: rs6891966 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+5	157088395	0.92	0.96	rs11741184	C	G	0.72	0.76	0.91	0.75		ESDR, BLD	LIV					2 hits	12 hits	HAVCR2	intronic
+5	157096736	0.92	0.99	rs4704847	C	T	0.64	0.72	0.87	0.73						Arid5b,Nanog,Sox			11 hits	HAVCR2	intronic
+5	157099320	1	1	rs6891966	A	G	0.83	0.75	0.88	0.75			FAT			ATF3,Zbtb3			11 hits	HAVCR2	intronic
+5	157099618	0.89	0.96	rs35521254	T	C	0.73	0.76	0.91	0.74			FAT, BLD			8 altered motifs			10 hits	HAVCR2	intronic
+5	157099655	0.92	0.96	rs13188080	A	G	0.73	0.76	0.91	0.75			FAT, BLD			Hic1,Sin3Ak-20,Zbtb3			11 hits	HAVCR2	intronic
+5	157099924	0.93	0.97	rs62381174	G	A	0.71	0.76	0.89	0.75			FAT, BLD, ADRL			LXR,Nr2f2,T3R			11 hits	HAVCR2	intronic
+5	157111960	0.83	0.96	rs140978441	10-mer	A	0.53	0.71	0.89	0.73						15 altered motifs			11 hits	HAVCR2
+5	157112294	0.85	0.94	rs113062257	TTTTAA	T	0.62	0.75	0.90	0.74						16 altered motifs			6 hits	HAVCR2
+5	157112357	0.87	0.96	rs10475902	G	A	0.54	0.73	0.91	0.74						EBF,p300			12 hits	HAVCR2
+5	157112755	0.87	0.96	rs2862721	C	T	0.65	0.75	0.91	0.74			FAT, BLD			ERalpha-a			12 hits	HAVCR2
+5	157113476	0.87	0.96	rs6893831	G	A,C	0.64	0.75	0.91	0.74		BLD	4 tissues	BLD					11 hits	HAVCR2
+5	157113541	0.87	0.96	rs56178052	G	C	0.54	0.74	0.91	0.74		BLD	4 tissues						11 hits	HAVCR2
+5	157113614	0.86	0.96	rs56344164	G	A	0.64	0.75	0.91	0.74			BLD						10 hits	HAVCR2
+5	157113818	0.83	0.96	rs12332379	G	A	0.61	0.73	0.89	0.73			BLD			Hoxa4,Pax-4			10 hits	HAVCR2
+5	157114922	0.87	0.96	rs11742259	T	C	0.60	0.74	0.91	0.74			5 tissues			GR,Myc			11 hits	HAVCR2
+5	157115485	0.87	0.96	rs3734019	C	A	0.64	0.75	0.91	0.74			7 tissues	ADRL,MUS		INSM1,Pax-4			11 hits	HAVCR2
+5	157115502	0.87	0.96	rs3734020	A	T	0.64	0.75	0.91	0.74			7 tissues	ADRL,LNG,MUS		4 altered motifs			12 hits	HAVCR2
+5	157116684	0.87	0.96	rs2033475	G	A	0.64	0.75	0.91	0.74		BLD	4 tissues	ADRL,BLD	5 bound proteins	4 altered motifs		2 hits	12 hits	HAVCR2
+5	157116886	0.87	0.96	rs4374748	T	A	0.64	0.75	0.91	0.74		BLD	BLD, ADRL, THYM	THYM,BLD	GATA1	4 altered motifs			11 hits	HAVCR2
+5	157119184	0.92	0.96	rs414662	A	T	0.80	0.77	0.91	0.75						Obox3			12 hits	HAVCR2
+5	157119431	0.92	0.96	rs432036	A	G	0.80	0.77	0.91	0.75						4 altered motifs			11 hits	HAVCR2
+
+
+Query SNP: rs871269 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+5	151052827	1	1	rs871269	C	T	0.41	0.52	0.57	0.34			9 tissues			Myb,Sox			2 hits	TNIP1	intronic
+
+
+Query SNP: rs1846190 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+6	32616036	1	1	rs1846190	G	A	0.20	0.33	0.31	0.27			IPSC, BLD	BLD	CTCF	AP-1,HNF4			22 hits	12kb 5' of HLA-DQA1
+
+
+Query SNP: rs187370608 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+6	40974457	1	1	rs187370608	G	A	0.00	0.01	0.00	0.00			LIV			NERF1a				53kb 3' of UNC5CL
+
+
+Query SNP: rs9369716 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+6	47459545	0.9	0.97	rs1931833	T	A	0.16	0.24	0.10	0.27		GI	LIV						10 hits	3.3kb 3' of AL355353.1
+6	47459875	0.91	0.97	rs7740963	C	T	0.15	0.23	0.10	0.27		4 tissues	ESC	GI,GI		5 altered motifs			10 hits	3kb 3' of AL355353.1
+6	47462031	0.91	0.97	rs9381562	C	A	0.15	0.23	0.10	0.27		BLD	4 tissues	GI		ATF4,STAT			10 hits	819bp 3' of AL355353.1
+6	47463548	0.91	0.97	rs9473117	A	C	0.15	0.23	0.10	0.27			LIV						11 hits	631bp 5' of AL355353.1
+6	47466015	0.9	0.96	rs9369693	A	C	0.14	0.23	0.10	0.27			PANC			4 altered motifs			11 hits	3.1kb 5' of AL355353.1
+6	47469961	0.93	0.97	rs34245545	AC	A	0.13	0.23	0.10	0.27						5 altered motifs				7kb 5' of AL355353.1
+6	47472829	0.93	0.97	rs9369695	C	A	0.15	0.23	0.10	0.27						Pax-5,STAT,YY1			11 hits	5kb 5' of CD2AP
+6	47474135	0.93	0.97	rs4715018	T	C	0.15	0.23	0.10	0.27			5 tissues	4 tissues	CJUN	GR			11 hits	3.7kb 5' of CD2AP
+6	47474418	0.93	0.97	rs60924431	TA	T	0.13	0.23	0.10	0.27			ESC, VAS, BLD	VAS		11 altered motifs			11 hits	3.4kb 5' of CD2AP
+6	47474641	0.93	0.97	rs1931837	C	T	0.13	0.23	0.10	0.27			ESC, VAS, BLD			GATA,NRSF			11 hits	3.1kb 5' of CD2AP
+6	47476070	0.93	0.97	rs9381564	A	G	0.15	0.23	0.10	0.27		8 tissues	8 tissues	GI,BLD		Hoxa10,Tel2			11 hits	1.7kb 5' of CD2AP
+6	47477281	0.93	0.97	rs1004173	C	T	0.15	0.23	0.10	0.27				22 tissues		MZF1::1-4,Pax-4,STAT			11 hits	507bp 5' of CD2AP
+6	47479305	0.93	0.97	rs4715019	T	A	0.14	0.23	0.10	0.27		23 tissues	BLD	11 tissues	POL2	24 altered motifs			11 hits	CD2AP	intronic
+6	47480600	0.93	0.97	rs9367279	A	G	0.15	0.23	0.10	0.27		14 tissues	12 tissues	BLD,BLD		7 altered motifs			11 hits	CD2AP	intronic
+6	47482882	0.91	0.97	rs9473119	G	A	0.14	0.23	0.10	0.26		BLD	13 tissues			7 altered motifs			11 hits	CD2AP	intronic
+6	47484147	0.93	0.97	rs9296558	C	T	0.15	0.23	0.10	0.27		8 tissues	17 tissues	9 tissues	6 bound proteins	Foxp1			11 hits	CD2AP	intronic
+6	47484534	0.93	0.97	rs9296559	T	C	0.15	0.23	0.10	0.27		10 tissues	17 tissues	4 tissues	FOXA1	Sox			11 hits	CD2AP	intronic
+6	47485642	0.93	0.97	rs9349407	G	C	0.15	0.23	0.10	0.27			13 tissues	5 tissues	STAT3	Crx,Pdx1	1 hit		11 hits	CD2AP	intronic
+6	47488382	0.91	0.97	rs4711878	A	G	0.27	0.24	0.10	0.27			LIV			5 altered motifs			10 hits	CD2AP	intronic
+6	47494177	0.91	0.97	rs6931478	C	A	0.27	0.24	0.10	0.27		ESDR, IPSC, BLD	8 tissues	BLD		6 altered motifs			12 hits	CD2AP	intronic
+6	47495390	0.91	0.97	rs9349409	G	T	0.27	0.24	0.10	0.27		ESDR	6 tissues	ESDR,ESC,BLD	CEBPB	4 altered motifs			12 hits	CD2AP	intronic
+0.9	0.96	rs142277866	14-mer	C	0.26	0.25	0.10	0.27		BLD	ESC, BLD, GI			5 altered motifs				CD2AP	intronic
+6	47497531	0.91	0.97	rs9395262	T	C	0.27	0.24	0.10	0.27		BLD	8 tissues	BLD		LUN-1,p300			12 hits	CD2AP	intronic
+6	47501537	0.91	0.97	rs7738044	A	G	0.27	0.24	0.10	0.27		GI	18 tissues	GI,GI		EWSR1-FLI1			12 hits	CD2AP	intronic
+6	47505471	0.91	0.97	rs12214064	C	T	0.25	0.24	0.10	0.27						4 altered motifs			12 hits	CD2AP	intronic
+6	47507226	0.89	0.95	rs9473122	C	T	0.27	0.24	0.10	0.27			FAT, GI			AIRE,Mef2			12 hits	CD2AP	intronic
+6	47507603	0.91	0.97	rs9473123	G	A	0.27	0.24	0.10	0.27			BLD, GI			7 altered motifs			12 hits	CD2AP	intronic
+6	47511400	0.89	0.97	rs9463335	G	A	0.12	0.23	0.10	0.26						PRDM1			11 hits	CD2AP	intronic
+6	47511882	0.92	0.97	rs13211285	C	T	0.27	0.24	0.10	0.27						5 altered motifs			12 hits	CD2AP	intronic
+6	47512940	0.93	0.97	rs4711880	A	G	0.13	0.23	0.10	0.27				VAS	KAP1,SETDB1	5 altered motifs			11 hits	CD2AP	intronic
+6	47513239	0.91	0.97	rs1872505	C	G	0.27	0.24	0.10	0.27					SETDB1	NF-I			12 hits	CD2AP	intronic
+6	47514097	0.96	0.98	rs9473126	C	G	0.13	0.23	0.10	0.27			BLD			HDAC2,Nanog,SP2			11 hits	CD2AP	intronic
+6	47515917	0.96	0.98	rs4715025	C	G	0.13	0.23	0.10	0.27			ESC			YY1			11 hits	CD2AP	intronic
+6	47517266	0.94	0.98	rs7749271	T	C	0.26	0.24	0.10	0.27			ESC, HRT			CEBPB,Pax-3,Pax-4			11 hits	CD2AP	intronic
+6	47517390	0.96	0.98	rs7767350	C	T	0.14	0.23	0.10	0.27			ESC, HRT			DEC,Nkx2			11 hits	CD2AP	intronic
+6	47519361	0.94	0.98	rs67769713	7-mer	T	0.26	0.25	0.10	0.27			8 tissues	LIV,BLD	8 bound proteins	4 altered motifs			10 hits	CD2AP	intronic
+6	47520026	0.96	0.98	rs10948363	A	G	0.13	0.23	0.10	0.27						Foxj1,Hoxb13,Sox	1 hit		11 hits	CD2AP	intronic
+6	47521202	0.94	0.98	rs9296561	G	A	0.27	0.24	0.10	0.27			GI			CCNT2,Foxl1,Hoxa13			11 hits	CD2AP	intronic
+6	47521368	0.96	0.98	rs6913202	A	G	0.13	0.23	0.10	0.27			GI, LNG			GR			11 hits	CD2AP	intronic
+6	47521972	0.95	0.98	rs13201473	G	A	0.14	0.23	0.10	0.26			BLD, HRT, GI			HNF4			11 hits	CD2AP	intronic
+6	47526204	0.94	0.98	rs7749167	G	A	0.27	0.25	0.10	0.27		GI	LIV, GI, VAS	GI		DMRT1			11 hits	CD2AP	intronic
+6	47527023	0.96	0.98	rs9296564	A	G	0.27	0.25	0.10	0.27			GI			5 altered motifs			11 hits	CD2AP	intronic
+6	47534288	0.95	0.99	rs7754282	G	C	0.27	0.24	0.10	0.27			GI, LIV	BLD		Pou3f1			11 hits	CD2AP	intronic
+6	47535761	0.95	0.99	rs6904764	A	T	0.27	0.24	0.10	0.27			7 tissues	MUS		GATA,Mef2			11 hits	CD2AP	intronic
+6	47537274	0.95	0.99	rs9473128	C	T	0.27	0.24	0.10	0.27			FAT, GI		BATF	Foxl1			11 hits	CD2AP	intronic
+6	47543755	0.93	0.99	rs9349413	A	G	0.02	0.22	0.10	0.26						Egr-1,Hand1,Smad			11 hits	CD2AP	intronic
+0.95	0.99	rs74607583	T	A	0.27	0.24	0.10	0.27						4 altered motifs				CD2AP	intronic
+6	47547022	0.95	0.99	rs7774667	G	A	0.27	0.24	0.10	0.27						Mef2,NRSF			11 hits	CD2AP	intronic
+6	47547894	0.95	0.99	rs2151974	G	A	0.26	0.24	0.10	0.27			BLD			4 altered motifs			11 hits	CD2AP	intronic
+6	47547927	0.95	0.99	rs2151975	T	C	0.27	0.24	0.10	0.27			BLD			Nrf-2,Pax-4,RORalpha1			11 hits	CD2AP	intronic
+6	47548075	0.97	0.99	rs2171089	A	G	0.13	0.23	0.10	0.27			BLD			HP1-site-factor,Pax-6,RXRA			11 hits	CD2AP	intronic
+6	47548633	0.95	0.99	rs9367284	A	G	0.26	0.24	0.10	0.27			BLD			11 altered motifs			11 hits	CD2AP	intronic
+6	47557466	0.95	0.99	rs6931011	G	A	0.27	0.24	0.10	0.27						E2F,Pou2f2			11 hits	CD2AP	intronic
+6	47561028	0.95	0.99	rs9381575	C	G	0.25	0.24	0.10	0.27						5 altered motifs			11 hits	CD2AP	intronic
+6	47568708	0.97	0.99	rs34744382	C	T	0.27	0.24	0.09	0.27						DMRT2,Nanog,Sox			10 hits	CD2AP	intronic
+6	47573679	0.97	0.99	rs12193051	C	G	0.27	0.24	0.10	0.27						4 altered motifs			11 hits	CD2AP	intronic
+6	47575128	0.97	0.99	rs9395279	C	T	0.27	0.24	0.10	0.27						8 altered motifs			11 hits	CD2AP	intronic
+6	47581759	0.98	1	rs9357546	C	T	0.27	0.24	0.10	0.27					PU1	THAP1,Znf143			11 hits	CD2AP	intronic
+6	47582793	0.92	0.98	rs67325630	TTG	T	0.28	0.26	0.11	0.27						13 altered motifs			8 hits	CD2AP	intronic
+6	47583708	0.98	1	rs9395283	T	C	0.27	0.24	0.10	0.27						SRF			11 hits	CD2AP	intronic
+6	47584125	0.98	1	rs9349415	T	C	0.27	0.24	0.10	0.27						4 altered motifs			11 hits	CD2AP	intronic
+6	47584202	0.98	1	rs9349416	G	A	0.27	0.24	0.10	0.27						Sox			11 hits	CD2AP	intronic
+6	47584444	1	1	rs9369716	A	T	0.13	0.23	0.10	0.27						NF-Y,Pou2f2,Pou5f1			11 hits	CD2AP	intronic
+6	47585081	0.95	0.98	rs13193054	C	A	0.27	0.24	0.10	0.27						4 altered motifs			11 hits	CD2AP	intronic
+6	47585666	0.93	0.98	rs9296567	G	A	0.12	0.23	0.10	0.26			ESDR			Nanog,Nkx2,Nkx3			11 hits	CD2AP	intronic
+6	47586441	0.95	0.99	rs9395285	G	A	0.12	0.23	0.10	0.26						Gbx1,Ik-2,STAT			11 hits	CD2AP	intronic
+6	47586732	0.95	0.99	rs9369717	T	G	0.12	0.23	0.10	0.26			STRM			4 altered motifs			11 hits	CD2AP	intronic
+6	47588894	0.97	0.99	rs1485780	A	C	0.27	0.24	0.10	0.27						Maf,Nanog,STAT			12 hits	CD2AP	intronic
+6	47588898	0.97	0.99	rs9381578	C	T	0.27	0.24	0.10	0.27						Maf			12 hits	CD2AP	intronic
+6	47588944	0.97	0.99	rs9381579	C	T	0.27	0.24	0.10	0.27						Cphx,HNF1			12 hits	CD2AP	intronic
+6	47591715	0.97	0.99	rs10456570	A	G	0.27	0.24	0.10	0.27									12 hits	CD2AP	intronic
+6	47595179	0.97	0.99	rs6903331	A	G	0.27	0.24	0.10	0.27						5 altered motifs			12 hits	CD2AP	intronic
+6	47600960	0.95	0.99	rs2396825	A	G	0.27	0.24	0.10	0.27						SETDB1			12 hits	CD2AP	intronic
+6	47607596	0.95	0.99	rs9395286	T	C	0.25	0.24	0.10	0.27						6 altered motifs			11 hits	CD2AP	intronic
+6	47608631	0.95	0.99	rs13212790	T	C	0.27	0.24	0.10	0.27						HMG-IY,Pou2f2			12 hits	CD2AP	intronic
+6	47612921	0.88	0.95	rs9349417	A	G	0.26	0.24	0.10	0.27						4 altered motifs			12 hits	CD2AP	intronic
+6	47612959	0.88	0.95	rs9381581	G	A	0.26	0.24	0.10	0.27						5 altered motifs			12 hits	CD2AP	intronic
+6	47615928	0.87	0.94	rs12195738	C	T	0.04	0.23	0.10	0.27						Znf143,p300			11 hits	CD2AP	intronic
+6	47617370	0.86	0.94	rs9463342	A	T	0.25	0.24	0.10	0.27						GATA,HNF1			11 hits	CD2AP	intronic
+6	47617879	0.86	0.94	rs10948367	A	G	0.27	0.24	0.10	0.27						Sox			12 hits	CD2AP	intronic
+6	47618176	0.86	0.94	rs1948047	T	C	0.27	0.24	0.10	0.27						NRSF,Pax-4,Znf143			12 hits	CD2AP	intronic
+6	47619313	0.84	0.92	rs143419962	AACAT	A	0.26	0.24	0.10	0.27						8 altered motifs				CD2AP	intronic
+6	47619558	0.84	0.92	rs34945135	ACTT	A	0.25	0.25	0.10	0.27						10 altered motifs			11 hits	CD2AP	intronic
+6	47622368	0.85	0.94	rs2171086	C	T	0.27	0.24	0.10	0.27			BRST						12 hits	CD2AP	intronic
+6	47622740	0.86	0.94	rs7754971	C	T	0.27	0.24	0.10	0.27			ESC, IPSC						12 hits	CD2AP	intronic
+
+
+Query SNP: rs3935067 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+7	143407238	1	1	rs3935067	G	C	0.08	0.25	0.02	0.32		7 tissues	12 tissues	SKIN,LNG,THYM					8 hits	EPHA1	intronic
+
+
+Query SNP: rs5011436 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+7	12210752	0.9	0.97	rs3807866	G	A	0.50	0.42	0.51	0.40		24 tissues		48 tissues		22 altered motifs			13 hits	488bp 5' of TMEM106B
+7	12210776	0.9	0.97	rs3807865	G	A	0.64	0.51	0.61	0.40		24 tissues		49 tissues		5 altered motifs			13 hits	464bp 5' of TMEM106B
+7	12211934	0.94	0.97	rs7781670	C	G	0.55	0.50	0.64	0.41		24 tissues		20 tissues		HNF1,LXR			13 hits	TMEM106B	intronic
+7	12212045	0.94	0.97	rs1019309	T	A	0.54	0.50	0.64	0.41				20 tissues		7 altered motifs			13 hits	TMEM106B	intronic
+7	12212164	0.93	0.97	rs1019307	G	C	0.54	0.50	0.64	0.41				32 tissues	GATA2	Zfp187,p300			13 hits	TMEM106B	intronic
+7	12212914	0.95	0.98	rs6460895	C	G	0.63	0.51	0.67	0.41		7 tissues	14 tissues			Bcl6b,Mef2		2 hits	14 hits	TMEM106B	intronic
+7	12213033	0.94	0.97	rs6460896	G	A	0.64	0.51	0.67	0.41		4 tissues	11 tissues			Hoxa10,Hoxb9,TEF			13 hits	TMEM106B	intronic
+7	12213115	0.95	0.98	rs6460897	T	G	0.63	0.51	0.67	0.41		4 tissues	11 tissues			Mef2			13 hits	TMEM106B	intronic
+7	12213267	0.95	0.98	rs6460898	A	G	0.63	0.51	0.66	0.41		4 tissues	7 tissues			Cdx,Hoxa3		1 hit	14 hits	TMEM106B	intronic
+7	12213424	0.95	0.98	rs6460899	A	C	0.63	0.51	0.67	0.41		4 tissues	4 tissues	BLD		Nr2f2,Pax-5,Pou2f2			13 hits	TMEM106B	intronic
+7	12213462	0.95	0.98	rs6460900	A	G	0.63	0.51	0.67	0.41		4 tissues	4 tissues	BLD		Pbx-1,Pou5f1,RFX5			13 hits	TMEM106B	intronic
+7	12213736	0.95	0.98	rs12699323	T	C	0.63	0.51	0.67	0.41			BRST, BLD, LNG			5 altered motifs			13 hits	TMEM106B	intronic
+7	12213746	0.95	0.98	rs12699324	T	C	0.63	0.51	0.67	0.41			BRST, BLD, LNG			Foxp1			13 hits	TMEM106B	intronic
+7	12213917	0.95	0.98	rs10234805	T	C	0.63	0.51	0.67	0.41						9 altered motifs			13 hits	TMEM106B	intronic
+7	12213937	0.95	0.98	rs10278257	C	T	0.62	0.51	0.67	0.41									13 hits	TMEM106B	intronic
+7	12214254	0.95	0.98	rs2043539	G	A	0.63	0.51	0.67	0.41			BRST, BLD			Ik-2			13 hits	TMEM106B	5'-UTR
+7	12215808	0.97	0.98	rs6460901	C	T	0.63	0.51	0.67	0.41			BLD			Pbx3			13 hits	TMEM106B	intronic
+7	12215885	0.97	0.99	rs6460902	G	A	0.72	0.51	0.67	0.41			BLD			8 altered motifs			12 hits	TMEM106B	intronic
+7	12216038	0.98	0.99	rs1020006	G	A	0.63	0.51	0.67	0.41						Foxj1,Foxk1,Pou2f2			13 hits	TMEM106B	intronic
+7	12216922	0.98	0.99	rs11971133	T	C	0.63	0.51	0.67	0.41			BLD, OVRY			Gm397,Mtf1,NF-I			13 hits	TMEM106B	intronic
+7	12217901	0.96	0.99	rs7785189	C	T	0.63	0.51	0.67	0.41						Gfi1,HNF6,Myc			11 hits	TMEM106B	intronic
+7	12217923	0.98	0.99	rs7785087	A	G	0.63	0.51	0.67	0.41								1 hit	13 hits	TMEM106B	intronic
+7	12219129	0.98	0.99	rs3823612	G	C	0.66	0.50	0.67	0.41						CEBPB,LUN-1		1 hit	14 hits	TMEM106B	intronic
+7	12222203	0.98	0.99	rs10950391	A	G	0.67	0.51	0.67	0.41						CEBPB,Osf2		1 hit	14 hits	TMEM106B	intronic
+7	12222616	0.97	0.99	rs3800847	G	A	0.66	0.51	0.67	0.41		BLD	BLD			Arid5b,Cdx,Foxp1			13 hits	TMEM106B	intronic
+7	12222945	0.98	0.99	rs1435527	C	T	0.66	0.51	0.67	0.41		BLD	BLD	4 tissues		Ets			13 hits	TMEM106B	intronic
+7	12223091	0.98	0.99	rs1435525	T	C	0.65	0.51	0.67	0.41			BLD	12 tissues		11 altered motifs			13 hits	TMEM106B	intronic
+7	12223175	0.97	0.98	rs1435524	G	A	0.66	0.51	0.67	0.41		BLD	BLD	6 tissues		Foxp3,Pax-8,Pou3f3			13 hits	TMEM106B	intronic
+7	12223557	0.99	0.99	rs5882346	TA	T	0.65	0.51	0.66	0.41		BLD	BLD			4 altered motifs			13 hits	TMEM106B	intronic
+7	12223752	0.99	0.99	rs11974335	G	T	0.66	0.51	0.67	0.41		BLD	BLD						13 hits	TMEM106B	intronic
+7	12223811	0.98	0.99	rs11974304	C	T	0.65	0.50	0.67	0.41			BLD			6 altered motifs			13 hits	TMEM106B	intronic
+7	12223912	0.98	0.99	rs10950392	T	C	0.62	0.49	0.65	0.41									13 hits	TMEM106B	intronic
+7	12223920	0.98	0.99	rs10950393	T	C	0.62	0.49	0.65	0.41									13 hits	TMEM106B	intronic
+7	12223961	0.99	0.99	rs10950394	C	T	0.66	0.50	0.66	0.41						ELF1			13 hits	TMEM106B	intronic
+7	12224671	1	1	rs3800843	G	A	0.66	0.51	0.67	0.41			BLD			BCL,CEBPB,HNF1			13 hits	TMEM106B	intronic
+7	12224841	1	1	rs10950395	T	C	0.66	0.51	0.67	0.41						7 altered motifs		1 hit	14 hits	TMEM106B	intronic
+7	12225040	0.99	1	rs10950396	T	C	0.66	0.51	0.67	0.41						4 altered motifs			13 hits	TMEM106B	intronic
+7	12225111	0.9	0.99	rs10950397	C	T	0.61	0.49	0.61	0.39						7 altered motifs			11 hits	TMEM106B	intronic
+7	12225245	0.93	0.99	rs10950398	G	A	0.67	0.48	0.63	0.39						Myc,XBP-1,YY1			11 hits	TMEM106B	intronic
+7	12225433	0.9	0.98	rs76854159	A	G	0.67	0.49	0.61	0.40						Pax-5,STAT			10 hits	TMEM106B	intronic
+7	12225566	1	1	rs150465020	T	C	0.66	0.51	0.67	0.41						7 altered motifs			13 hits	TMEM106B	intronic
+7	12226222	0.99	1	rs6948844	T	C	0.64	0.50	0.66	0.41			BLD			SP2,Sox			13 hits	TMEM106B	intronic
+7	12226326	1	1	rs6966757	A	T	0.66	0.51	0.67	0.41			BLD			CEBPB,TCF12			13 hits	TMEM106B	intronic
+7	12226362	0.98	1	rs6966915	C	T	0.65	0.51	0.67	0.40			BLD			BATF		2 hits	13 hits	TMEM106B	intronic
+7	12226925	0.96	0.98	rs35642626	TA	T	0.66	0.51	0.67	0.41			BLD, PANC	BRN,KID,LNG		HNF1,PLZF,Smad			9 hits	TMEM106B	intronic
+7	12227080	0.99	1	rs7804433	G	A	0.72	0.51	0.67	0.41			PANC	BRN,LNG		25 altered motifs			12 hits	TMEM106B	intronic
+7	12227188	1	1	rs7804234	A	G	0.66	0.51	0.67	0.41			PANC	LNG		GATA,Rad21,Sox			13 hits	TMEM106B	intronic
+7	12227241	1	1	rs7804736	G	T	0.66	0.51	0.67	0.41			PANC	LNG		DMRT5,Irf			13 hits	TMEM106B	intronic
+7	12227595	1	1	rs4721057	A	G	0.66	0.51	0.67	0.41						8 altered motifs			13 hits	TMEM106B	intronic
+7	12227630	1	1	rs4721058	C	T	0.65	0.51	0.67	0.41						Foxo,Ik-2		1 hit	13 hits	TMEM106B	intronic
+7	12227869	1	1	rs4721059	G	C	0.66	0.51	0.67	0.41						5 altered motifs		1 hit	14 hits	TMEM106B	intronic
+7	12227926	0.98	1	rs4721060	G	A	0.66	0.51	0.67	0.40						4 altered motifs			12 hits	TMEM106B	intronic
+7	12227933	0.96	0.99	rs4721061	G	C	0.66	0.51	0.67	0.41								1 hit	10 hits	TMEM106B	intronic
+7	12227988	0.98	1	rs7792410	T	C	0.66	0.51	0.67	0.40								1 hit	13 hits	TMEM106B	intronic
+7	12228108	0.98	1	rs7809700	G	A	0.65	0.51	0.67	0.40					MAFF,MAFK	20 altered motifs			12 hits	TMEM106B	intronic
+7	12228211	0.97	0.99	rs13229988	A	G	0.66	0.51	0.67	0.41					MAFF,MAFK	6 altered motifs			12 hits	TMEM106B	intronic
+0.95	0.99	rs144370668	CTTAA	C	0.65	0.51	0.67	0.40						20 altered motifs			8 hits	TMEM106B	intronic
+7	12228491	0.98	1	rs28549831	C	T	0.65	0.51	0.67	0.40						Nkx3,SRF,TATA			12 hits	TMEM106B	intronic
+7	12228617	0.98	1	rs13230513	C	A	0.66	0.51	0.67	0.40			BLD			Zfp691			12 hits	TMEM106B	intronic
+7	12228842	0.97	0.99	rs12667950	G	T	0.65	0.51	0.67	0.41			BLD			8 altered motifs		1 hit	12 hits	TMEM106B	intronic
+7	12228925	0.98	1	rs5011431	G	A	0.66	0.51	0.67	0.40			BLD			13 altered motifs			12 hits	TMEM106B	intronic
+7	12229042	0.97	1	rs5011432	A	C	0.46	0.49	0.64	0.40			BLD	KID		8 altered motifs			12 hits	TMEM106B	intronic
+7	12229091	0.98	1	rs5011434	C	T	0.66	0.51	0.67	0.40			BLD					1 hit	12 hits	TMEM106B	intronic
+7	12229132	1	1	rs5011436	A	C	0.66	0.51	0.67	0.41			BLD		CEBPB	9 altered motifs			13 hits	TMEM106B	intronic
+7	12229166	0.98	1	rs5011437	A	T	0.66	0.51	0.67	0.40			BLD		CEBPB	TCF11::MafG			12 hits	TMEM106B	intronic
+7	12229172	0.98	1	rs5011438	C	T	0.65	0.51	0.67	0.40			BLD		CEBPB	Sox,TCF11::MafG			12 hits	TMEM106B	intronic
+7	12229185	0.98	1	rs5011439	G	C	0.66	0.51	0.67	0.40			FAT, BLD		CEBPB	STAT			12 hits	TMEM106B	intronic
+7	12229630	0.89	0.96	rs201240388	T	TTGTA	0.63	0.51	0.66	0.40			STRM			16 altered motifs			13 hits	TMEM106B	intronic
+7	12229634	0.95	0.99	rs3839691	A	ATGTT	0.63	0.51	0.67	0.40			STRM			22 altered motifs			12 hits	TMEM106B	intronic
+7	12229791	0.97	0.99	rs3173615	C	G	0.66	0.51	0.67	0.40						5 altered motifs		1 hit	13 hits	TMEM106B	missense
+7	12229949	0.96	0.99	rs13237715	G	C	0.65	0.51	0.67	0.40						AP-1			12 hits	TMEM106B	intronic
+7	12229967	0.96	0.99	rs13237518	C	A	0.71	0.51	0.67	0.41						5 altered motifs			11 hits	TMEM106B	intronic
+7	12230136	0.97	0.99	rs12699332	G	T	0.65	0.51	0.67	0.40			ESDR			CTCF,DEC,Nkx2			12 hits	TMEM106B	intronic
+7	12230178	0.97	0.99	rs12699333	C	T	0.66	0.51	0.67	0.40						NRSF			12 hits	TMEM106B	intronic
+7	12230191	0.97	0.99	rs12668625	G	A	0.66	0.51	0.67	0.40									12 hits	TMEM106B	intronic
+7	12230893	0.97	0.99	rs3815535	G	A	0.66	0.51	0.67	0.40						Irx,Pou1f1			12 hits	TMEM106B	intronic
+7	12230999	0.97	0.99	rs2302635	G	A	0.66	0.51	0.67	0.40						GATA,TAL1			12 hits	TMEM106B	intronic
+7	12231144	0.97	0.99	rs2302634	T	A	0.66	0.51	0.67	0.40									12 hits	TMEM106B	intronic
+7	12231189	0.97	0.99	rs2302633	C	T	0.66	0.51	0.67	0.40						TATA			12 hits	TMEM106B	intronic
+7	12231626	0.98	0.99	rs7808568	T	C	0.69	0.51	0.67	0.41			HRT			4 altered motifs			12 hits	TMEM106B	intronic
+7	12232371	0.96	0.99	rs12669919	G	A	0.66	0.51	0.67	0.41						Dbx1,Pou3f2			12 hits	TMEM106B	3'-UTR
+7	12232490	0.96	0.99	rs1042949	C	G	0.66	0.51	0.67	0.41						Cdx2			12 hits	TMEM106B	3'-UTR
+7	12232942	0.96	0.99	rs3800841	A	T	0.66	0.51	0.67	0.41						Foxo,Nanog,p53			12 hits	TMEM106B	3'-UTR
+7	12233236	0.96	0.99	rs10639478	T	TTTG	0.66	0.51	0.67	0.41						19 altered motifs			8 hits	TMEM106B	3'-UTR
+7	12233787	0.96	0.99	rs1054168	C	T	0.66	0.51	0.67	0.41						5 altered motifs			12 hits	TMEM106B	3'-UTR
+7	12233870	0.96	0.99	rs1054169	G	A	0.66	0.51	0.67	0.41						5 altered motifs			12 hits	TMEM106B	3'-UTR
+7	12235882	0.99	0.99	rs1468804	T	C	0.69	0.51	0.67	0.41						ERalpha-a		1 hit	13 hits	TMEM106B	3'-UTR
+7	12236049	0.99	0.99	rs1468803	A	C	0.69	0.51	0.67	0.41						HP1-site-factor			12 hits	TMEM106B	3'-UTR
+7	12236192	0.99	0.99	rs1060700	A	G	0.69	0.51	0.67	0.41					MAFK	5 altered motifs			12 hits	TMEM106B	3'-UTR
+7	12236385	0.99	0.99	rs1468802	G	A	0.69	0.51	0.67	0.41						Pou3f2,SIX5			12 hits	TMEM106B	3'-UTR
+7	12236419	0.98	0.99	rs1468801	G	C	0.69	0.51	0.67	0.41						10 altered motifs			12 hits	TMEM106B	3'-UTR
+7	12237259	0.97	0.99	rs2356065	T	C	0.69	0.51	0.67	0.40				BRN	CEBPB	Foxp1			11 hits	TMEM106B	3'-UTR
+7	12238147	0.96	0.99	rs7797705	G	A	0.65	0.51	0.67	0.40						GR,THAP1,YY1			12 hits	886bp 3' of TMEM106B
+7	12240135	0.96	0.99	rs1548884	A	C	0.71	0.51	0.67	0.40			BLD, LIV	BLD,BLD	PU1	Cdx2,p300			11 hits	2.9kb 3' of TMEM106B
+7	12241104	0.96	0.99	rs10281425	T	A	0.71	0.51	0.68	0.40						Homez,Mef2			11 hits	3.8kb 3' of TMEM106B
+7	12242825	0.95	0.98	rs7805419	T	C	0.68	0.35	0.48	0.41									11 hits	5.6kb 3' of TMEM106B
+7	12243601	0.95	0.98	rs6460905	A	G	0.71	0.52	0.67	0.41									12 hits	6.3kb 3' of TMEM106B
+7	12243650	0.95	0.98	rs6460906	T	C	0.71	0.52	0.67	0.41						Sox,Zfp187			12 hits	6.4kb 3' of TMEM106B
+7	12243703	0.95	0.98	rs7791726	G	C	0.70	0.52	0.67	0.41						PPAR			12 hits	6.4kb 3' of TMEM106B
+7	12244161	0.95	0.98	rs1990622	A	G	0.71	0.52	0.67	0.41			ESC, IPSC, LNG	ESDR	CTCF	6 altered motifs		2 hits	11 hits	6.9kb 3' of TMEM106B
+7	12244247	0.96	0.98	rs1990621	C	G	0.70	0.51	0.67	0.41			IPSC, GI, LNG	8 tissues	CTCF,RAD21,SMC3				11 hits	7kb 3' of TMEM106B
+7	12244382	0.95	0.98	rs1990620	A	G	0.71	0.52	0.67	0.41			GI, LNG	24 tissues	CTCF,RAD21,SMC3	7 altered motifs			11 hits	7.1kb 3' of TMEM106B
+7	12244752	0.94	0.98	rs4721064	G	A	0.64	0.51	0.66	0.40			GI	KID		Ik-1,Irf,STAT			11 hits	7.5kb 3' of TMEM106B
+7	12245514	0.96	0.99	rs12699338	C	T	0.63	0.51	0.65	0.40						Pou6f1,STAT,Znf143			11 hits	8.3kb 3' of TMEM106B
+
+
+Query SNP: rs7384878 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+7	100334426	1	1	rs7384878	C	T	0.89	0.55	0.40	0.66		ESDR, BLD	11 tissues			5 altered motifs			18 hits	1.7kb 5' of PILRB	intronic
+7	100373690	0.83	0.93	rs2405442	T	C	0.90	0.56	0.43	0.67		6 tissues	11 tissues	MUS,LIV		8 altered motifs		5 hits	23 hits	PILRA	synonymous
+
+
+Query SNP: rs1532278 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+8	27598736	0.89	0.98	rs2279590	T	C	0.95	0.66	0.80	0.59		HRT, VAS	BLD, LIV, BRN	8 tissues		5 altered motifs	1 hit	1 hit	1 hit	CLU	intronic
+8	27604964	0.98	0.99	rs7982	A	C,G	0.55	0.64	0.81	0.61			BRN, LIV, PANC						1 hit	CLU	missense
+8	27607002	0.98	0.99	rs11136000	T	C	0.41	0.63	0.80	0.61			4 tissues			Mrg,Tgif1	2 hits	1 hit	1 hit	CLU	intronic
+8	27607412	0.99	1	rs4236673	A	G	0.94	0.67	0.81	0.60			4 tissues			4 altered motifs			1 hit	CLU	intronic
+8	27607795	0.99	1	rs11787077	T	C	0.40	0.63	0.80	0.60			6 tissues			7 altered motifs			1 hit	CLU	intronic
+8	27608640	0.99	1	rs1532276	T	C	0.43	0.63	0.80	0.60		ESC, IPSC, BRN	14 tissues	16 tissues	TAF1,GATA2	8 altered motifs			1 hit	CLU	intronic
+8	27608664	0.99	1	rs1532277	T	C	0.94	0.67	0.81	0.60		ESC, IPSC, BRN	14 tissues	16 tissues	TAF1,USF1,GATA2	7 altered motifs			1 hit	CLU	intronic
+8	27608798	1	1	rs1532278	T	C	0.84	0.66	0.80	0.61		BRN	15 tissues	24 tissues	6 bound proteins	5 altered motifs	1 hit		2 hits	CLU	intronic
+8	27610169	0.91	0.97	rs9331896	C	T	0.38	0.63	0.80	0.60		ESDR, BLD, BRN	15 tissues	5 tissues		BDP1,NRSF	1 hit		2 hits	CLU	intronic
+8	27610304	0.91	0.97	rs2070926	C	G	0.95	0.67	0.81	0.60		6 tissues	19 tissues	6 tissues		6 altered motifs				CLU	intronic
+8	27610986	0.88	0.97	rs867230	C	A	0.62	0.63	0.80	0.59		16 tissues	18 tissues	12 tissues		4 altered motifs			4 hits	CLU	intronic
+
+
+Query SNP: rs61732533 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+8	144053248	1	1	rs61732533	G	A	0.00	0.02	0.00	0.05		SKIN	5 tissues	BLD	POL24H8	ERalpha-a,NRSF			1 hit	OPLAH	synonymous
+8	144069710	0.87	0.95	rs60394484	C	A	0.00	0.02	0.00	0.05		LIV	8 tissues			Mef2,Smad,Zec			1 hit	5.9kb 5' of OPLAH
+
+
+Query SNP: rs7902657 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+10	59977529	0.97	0.99	rs10821624	C	T	0.48	0.43	0.32	0.54					KAP1,SETDB1	HP1-site-factor,RORalpha1				17kb 5' of C10orf40
+10	59977669	0.98	1	rs10761423	G	T	0.48	0.43	0.32	0.54					KAP1,SETDB1	ATF3				17kb 5' of C10orf40
+10	59977967	0.93	0.97	rs7898662	C	T	0.47	0.43	0.32	0.53						SIX5,Znf143				17kb 5' of C10orf40
+10	59978307	0.98	1	rs7902302	C	A	0.48	0.43	0.32	0.54						13 altered motifs				17kb 5' of C10orf40
+10	59978394	1	1	rs7902657	G	T	0.48	0.43	0.32	0.54						8 altered motifs				17kb 5' of C10orf40
+10	59978432	0.97	0.99	rs7919047	T	C	0.48	0.43	0.32	0.54						BDP1,GR				18kb 5' of C10orf40
+10	59979702	0.98	1	rs10821625	C	T	0.40	0.42	0.32	0.54						11 altered motifs				19kb 5' of C10orf40
+10	59980299	0.82	1	rs4948380	A	G	0.66	0.47	0.32	0.59						6 altered motifs				19kb 5' of C10orf40
+10	59980504	0.98	1	rs10821626	A	G	0.48	0.43	0.32	0.54				BLD,MUS,BLD		GATA,HDAC2,Irf				20kb 5' of C10orf40
+10	59981293	0.9	0.98	rs11817353	A	C	0.44	0.43	0.31	0.52						8 altered motifs				20kb 5' of C10orf40
+10	59981491	0.97	0.99	rs3862863	T	C	0.48	0.43	0.32	0.54			ESC	PLCNT		7 altered motifs				21kb 5' of C10orf40
+10	59981984	0.97	0.99	rs10994108	G	C	0.48	0.43	0.32	0.54				BLD,PLCNT,BLD	GATA3	Nrf-2				21kb 5' of C10orf40
+10	59982217	0.95	0.98	rs4103629	C	T	0.45	0.44	0.33	0.54			SKIN			7 altered motifs				21kb 5' of C10orf40
+
+
+Query SNP: rs7912495 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+10	11676714	1	1	rs7912495	A	G	0.27	0.56	0.24	0.46			BLD							65kb 5' of USP6NL	intronic
+
+
+Query SNP: rs11218343 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+11	121564878	1	1	rs11218343	T	C	0.10	0.05	0.29	0.04			LIV, GI, PANC	SKIN			2 hits	1 hit		SORL1	intronic
+
+
+Query SNP: rs1582763 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+11	60243540	0.81	-0.99	rs611418	C	T	0.81	0.56	0.70	0.59			BLD			5 altered motifs			6 hits	451bp 5' of MS4A4E
+11	60245200	0.81	-0.99	rs603648	A	T	0.77	0.56	0.70	0.59						4 altered motifs			6 hits	2.1kb 5' of MS4A4E
+11	60245978	0.81	-0.99	rs600064	A	G	0.82	0.56	0.70	0.59						9 altered motifs			1 hit	2.9kb 5' of MS4A4E
+11	60246201	0.81	-0.99	rs654415	G	A	0.75	0.56	0.69	0.59						Pbx-1			1 hit	3.1kb 5' of MS4A4E
+11	60246384	0.81	-0.99	rs655231	G	A	0.76	0.55	0.69	0.59						Foxa,Foxp1,Pou2f2		1 hit	6 hits	3.3kb 5' of MS4A4E
+11	60251677	0.83	-1	rs636317	C	T	0.68	0.55	0.70	0.59		BLD	BLD, OVRY, VAS	41 tissues	8 bound proteins	8 altered motifs			1 hit	8.6kb 5' of MS4A4E
+11	60251688	0.82	-1	rs636341	A	C	0.83	0.56	0.70	0.59		BLD	BLD, OVRY, VAS	39 tissues	8 bound proteins	7 altered motifs			1 hit	8.6kb 5' of MS4A4E
+11	60251791	0.97	1	rs201153362	T	TAC	0.03	0.39	0.17	0.36		BLD	4 tissues	8 tissues	6 bound proteins	4 altered motifs				8.7kb 5' of MS4A4E
+11	60252639	0.83	-1	rs672399	T	G	0.83	0.56	0.70	0.59		BLD	5 tissues	SKIN		4 altered motifs			6 hits	9.6kb 5' of MS4A4E
+11	60254475	1	1	rs1582763	G	A	0.04	0.40	0.18	0.37			BLD, BRST	BLD	SETDB1	SP1,STAT		1 hit	6 hits	11kb 5' of MS4A4E
+11	60255614	0.83	-1	rs1562990	C	A	0.82	0.56	0.70	0.59						4 altered motifs	1 hit	3 hits	6 hits	13kb 5' of MS4A4E
+11	60256535	0.83	-1	rs7121656	C	T	0.67	0.55	0.70	0.59						CDP,Mtf1,NRSF			1 hit	13kb 5' of MS4A4E
+11	60258092	0.83	-1	rs6591559	A	G	0.81	0.56	0.70	0.59						Pbx3,RREB-1		1 hit	6 hits	15kb 5' of MS4A4E
+11	60259140	0.83	-1	rs4938931	G	T	0.77	0.56	0.70	0.59						4 altered motifs		1 hit	6 hits	16kb 5' of MS4A4E
+11	60260669	0.83	-1	rs7108663	C	T	0.66	0.54	0.72	0.59						En-1,Sox		1 hit	6 hits	18kb 5' of MS4A4E
+11	60261467	0.83	-1	rs1530914	C	T	0.82	0.56	0.72	0.59						DMRT5,Irf,STAT		1 hit	6 hits	18kb 5' of MS4A4E
+0.83	-1	rs78057299	T	A	0.82	0.56	0.72	0.59						9 altered motifs				18kb 5' of MS4A4A
+11	60262476	0.83	-1	rs1026255	G	A	0.82	0.56	0.72	0.59						5 altered motifs		2 hits	6 hits	18kb 5' of MS4A4A
+11	60262984	0.83	-1	rs1026254	T	C	0.82	0.56	0.72	0.59						Hoxa13,Hoxb13,Irx		1 hit	6 hits	18kb 5' of MS4A4A
+11	60263083	0.83	-1	rs1026253	G	A	0.82	0.56	0.72	0.59						MIZF			1 hit	17kb 5' of MS4A4A
+11	60263086	0.83	-1	rs1026252	C	T	0.82	0.56	0.72	0.59						6 altered motifs			1 hit	17kb 5' of MS4A4A
+11	60263797	0.83	-1	rs7128450	G	C	0.66	0.54	0.72	0.59			BLD			Pbx3			1 hit	17kb 5' of MS4A4A
+11	60263926	0.83	-1	rs10736700	T	C	0.82	0.56	0.72	0.59						GATA			1 hit	17kb 5' of MS4A4A
+11	60264003	0.83	-1	rs10736701	C	T	0.66	0.54	0.72	0.59						RXRA,Sox			1 hit	17kb 5' of MS4A4A
+11	60265898	0.83	-0.99	rs7930318	C	T	0.65	0.54	0.72	0.59			IPSC, BLD	22 tissues	7 bound proteins	AP-4,Pax-6			1 hit	15kb 5' of MS4A4A
+11	60265975	0.83	-1	rs4938932	C	T	0.82	0.56	0.72	0.59			IPSC	11 tissues	STAT3,FOXA1	AP-1			1 hit	15kb 5' of MS4A4A
+11	60266956	0.82	-1	rs4938933	C	T	0.65	0.54	0.72	0.59							1 hit		6 hits	14kb 5' of MS4A4A
+11	60272444	0.83	-1	rs2162254	T	A	0.65	0.54	0.72	0.59						4 altered motifs			1 hit	8.1kb 5' of MS4A4A
+
+
+Query SNP: rs3740688 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+11	47358789	1	1	rs3740688	G	T	0.77	0.51	0.64	0.54		SKIN	8 tissues	MUS,BLD		17 altered motifs			15 hits	SPI1	intronic
+
+
+Query SNP: rs561655 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+11	86077309	0.82	0.97	rs541458	C	T	0.77	0.63	0.44	0.67			BLD	BLD,BLD		Gm397			1 hit	7.4kb 5' of PICALM
+11	86083500	0.81	0.95	rs535590	A	G	0.76	0.62	0.44	0.66						ATF3,ERalpha-a				11kb 5' of snoU13
+11	86084482	0.83	1	rs565719	T	C	0.77	0.64	0.44	0.68						HNF4,Pbx3				9.7kb 5' of snoU13
+11	86086978	0.83	1	rs631639	T	G	0.83	0.64	0.48	0.68			ESDR							7.2kb 5' of snoU13
+11	86089237	1	1	rs561655	G	A	0.85	0.63	0.48	0.64			6 tissues	BRST		4 altered motifs	1 hit		1 hit	5kb 5' of snoU13
+11	86100322	0.82	0.93	rs526904	T	C	0.85	0.62	0.58	0.62			11 tissues	SKIN,CRVX	USF2	Nkx2,Nkx3			1 hit	6kb 3' of snoU13
+11	86101168	0.82	0.93	rs497816	C	T	0.85	0.62	0.58	0.62			6 tissues			6 altered motifs			1 hit	6.9kb 3' of snoU13
+11	86103988	0.83	0.94	rs1237999	G	A	0.85	0.62	0.58	0.62			4 tissues	16 tissues	4 bound proteins	22 altered motifs		1 hit	1 hit	9.7kb 3' of snoU13
+0.85	0.93	rs59097112	G	A	0.85	0.63	0.58	0.64		LNG, BONE	10 tissues	10 tissues	CJUN,P300	TAL1				23kb 3' of snoU13
+11	86120648	0.81	0.92	rs472486	A	G	0.85	0.62	0.58	0.62			LIV, GI			Arid5a			1 hit	26kb 3' of snoU13
+
+
+Query SNP: rs12590654 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+14	92472511	1	1	rs12590654	G	A	0.38	0.34	0.51	0.33			9 tissues			5 altered motifs			1 hit	SLC24A4	intronic
+
+
+Query SNP: rs7146179 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+14	52826589	0.81	1	rs12895137	G	T	0.40	0.84	0.74	0.88						Arid5b,GCNF				6.6kb 5' of RP11-589M4.3
+14	52827601	0.99	1	rs2025632	T	C	0.56	0.86	0.78	0.90			4 tissues	4 tissues		12 altered motifs				7.6kb 5' of RP11-589M4.3
+14	52828496	0.95	1	rs8011357	G	A	0.42	0.85	0.74	0.89			LIV							8.5kb 5' of RP11-589M4.3
+14	52828988	0.95	1	rs1998777	G	A	0.39	0.85	0.74	0.89			4 tissues	LNG		Pdx1		1 hit		9kb 5' of RP11-589M4.3
+14	52829232	0.95	1	rs1998779	T	A	0.40	0.85	0.74	0.89			4 tissues			HNF1,Hmbox1				9.2kb 5' of RP11-589M4.3
+14	52830290	1	1	rs12590862	A	G	0.57	0.86	0.79	0.90				BRST		4 altered motifs				10kb 5' of RP11-589M4.3
+14	52831559	0.95	1	rs12586707	A	G	0.52	0.85	0.75	0.89			6 tissues			5 altered motifs				12kb 5' of RP11-589M4.3
+14	52832135	1	1	rs7146179	A	G	0.56	0.86	0.79	0.90		ESC	7 tissues	IPSC,KID		5 altered motifs				12kb 5' of RP11-589M4.3
+14	52834416	0.83	0.94	rs199870023	TTTTTG	T	0.52	0.87	0.77	0.89		MUS	11 tissues	MUS		15 altered motifs				14kb 5' of RP11-589M4.3
+14	52838033	0.92	-1	rs12587286	C	T	0.02	0.10	0.23	0.09			CRVX, LIV			6 altered motifs			1 hit	18kb 5' of RP11-589M4.3
+14	52838153	0.9	0.97	rs7150808	C	T	0.58	0.85	0.77	0.90			CRVX, LIV			HNF4,SIX5				18kb 5' of RP11-589M4.3
+14	52838855	0.9	0.97	rs2357944	T	G	0.58	0.85	0.77	0.90						Pou2f2,THAP1,YY1				18kb 3' of FERMT2
+14	52838908	0.89	-0.97	rs75762751	G	A	0.03	0.10	0.22	0.10						4 altered motifs			1 hit	18kb 3' of FERMT2
+14	52839767	0.86	0.94	rs4901301	C	T	0.42	0.84	0.72	0.89						CTCF,SP1,THAP1				18kb 3' of FERMT2
+14	52840535	0.86	0.94	rs11626419	G	A	0.39	0.84	0.72	0.89			4 tissues							17kb 3' of FERMT2
+14	52844682	0.83	0.94	rs7160285	A	C	0.38	0.84	0.72	0.89		5 tissues	17 tissues	10 tissues	TCF4	8 altered motifs				13kb 3' of FERMT2
+14	52844810	0.83	0.94	rs72191715	16-mer	T	0.54	0.86	0.76	0.89		5 tissues	19 tissues	17 tissues	PU1	HDAC2,p300				12kb 3' of FERMT2
+14	52845284	0.9	-0.97	rs12589020	C	T	0.12	0.11	0.23	0.10		FAT, MUS, LIV	18 tissues	12 tissues					1 hit	12kb 3' of FERMT2
+14	52845388	0.86	0.94	rs1886785	A	C	0.38	0.84	0.72	0.89		FAT, MUS, LIV	18 tissues	7 tissues		Pou3f2				12kb 3' of FERMT2
+14	52845471	0.92	0.97	rs1886786	A	T	0.38	0.84	0.77	0.90		FAT, MUS, LIV	18 tissues	HRT,MUS,MUS						12kb 3' of FERMT2
+14	52845601	0.8	0.94	rs4898768	A	G	0.64	0.86	0.76	0.89			MUS, LIV			8 altered motifs			1 hit	12kb 3' of FERMT2
+14	52846057	0.85	0.94	rs147655286	G	7-mer	0.49	0.85	0.76	0.89			MUS							11kb 3' of FERMT2
+14	52846687	0.89	0.96	rs7152229	T	C	0.60	0.86	0.77	0.90			4 tissues	BRN,BRN		FAC1,Foxp1,NF-AT				11kb 3' of FERMT2
+14	52846943	0.89	0.96	rs7151643	G	C	0.49	0.85	0.77	0.90			8 tissues	BRN		9 altered motifs				10kb 3' of FERMT2
+14	52846962	0.89	0.96	rs7151474	C	T	0.46	0.85	0.77	0.90			8 tissues			4 altered motifs				10kb 3' of FERMT2
+14	52846993	0.89	0.96	rs7151491	C	G	0.49	0.85	0.77	0.90			8 tissues	LIV		8 altered motifs				10kb 3' of FERMT2
+14	52848126	0.89	0.96	rs6572866	T	C	0.56	0.86	0.77	0.90						GATA,GCNF			1 hit	9.1kb 3' of FERMT2
+14	52848462	0.89	0.96	rs8005234	T	C	0.65	0.86	0.77	0.90			PLCNT			Maf,SETDB1,TAL1				8.8kb 3' of FERMT2
+14	52849321	0.84	0.93	rs7146915	C	T	0.38	0.84	0.72	0.89			4 tissues	ESC,PLCNT		5 altered motifs				7.9kb 3' of FERMT2
+14	52850622	0.89	0.96	rs2025633	C	T	0.48	0.85	0.77	0.90			9 tissues	8 tissues	BCL11A					6.6kb 3' of FERMT2
+14	52851716	0.84	0.93	rs2357945	A	G	0.38	0.84	0.73	0.89			ESDR, LIV			Dbx1,Hoxa9				5.6kb 3' of FERMT2
+14	52852565	0.87	0.94	rs6572867	C	T	0.48	0.85	0.77	0.90		LIV	7 tissues	5 tissues		HDAC2,STAT				4.7kb 3' of FERMT2
+14	52853114	0.87	0.94	rs1952088	A	C	0.45	0.85	0.77	0.90		ESDR, LIV	16 tissues	4 tissues	4 bound proteins	Pou2f2				4.2kb 3' of FERMT2
+14	52853187	0.86	-0.94	rs17125798	G	A	0.07	0.11	0.23	0.10		ESDR, LIV	16 tissues	9 tissues	9 bound proteins	9 altered motifs				4.1kb 3' of FERMT2
+
+
+Query SNP: rs117618017 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+15	63277703	1	1	rs117618017	C	T	0.01	0.10	0.00	0.13		23 tissues		49 tissues	6 bound proteins				8 hits	APH1B	missense
+15	63279621	0.98	1	rs75763893	C	T	0.01	0.09	0.00	0.13			SKIN						8 hits	APH1B	intronic
+15	63303679	0.89	0.95	rs76855300	T	C	0.01	0.08	0.00	0.13			ESDR, LNG	SKIN		Foxp3,Hoxa10,Mef2			6 hits	APH1B	intronic
+
+
+Query SNP: rs602602 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+15	58723689	0.82	0.93	rs6494035	C	G	0.75	0.43	0.86	0.31			4 tissues						1 hit	ADAM10	intronic
+15	58723762	0.81	0.92	rs6494036	A	T	0.75	0.43	0.86	0.31			4 tissues					10 hits	1 hit	ADAM10	intronic
+15	58724116	0.82	0.93	rs6494037	A	G	0.74	0.42	0.85	0.31			7 tissues			BATF,ERalpha-a,ZBRK1			1 hit	ADAM10	intronic
+15	58749813	0.93	0.99	rs653765	T	C,G	0.75	0.43	0.86	0.32		24 tissues		53 tissues	27 bound proteins			10 hits	1 hit	ADAM10	5'-UTR
+15	58753575	0.94	0.99	rs593742	A	G	0.31	0.41	0.79	0.31			SKIN, LIV, PLCNT			4 altered motifs		10 hits	2 hits	3.6kb 5' of ADAM10
+15	58753964	0.88	0.99	rs605928	C	G	0.75	0.43	0.88	0.33			5 tissues					10 hits	1 hit	4kb 5' of ADAM10
+15	58756822	0.88	0.99	rs640704	A	G	0.75	0.43	0.89	0.33			SKIN, PLCNT			RFX5			1 hit	3.6kb 3' of U3
+15	58758183	0.88	-0.99	rs2250583	C	T	0.30	0.57	0.11	0.67				OVRY	ERALPHA_A,CTCF				1 hit	2.3kb 3' of U3
+15	58760011	0.87	0.99	rs585192	T	C	0.61	0.43	0.89	0.33			THYM			E2A,Myf,SP1			1 hit	455bp 3' of U3
+15	58761146	0.89	0.99	rs507801	T	G	0.38	0.41	0.89	0.32				9 tissues	CTCF,RAD21	6 altered motifs			3 hits	464bp 5' of U3
+15	58763611	0.95	1	rs572107	T	C	0.31	0.41	0.78	0.31						Sin3Ak-20,YY1			2 hits	2.9kb 5' of U3
+15	58764824	1	1	rs602602	T	A	0.23	0.40	0.77	0.30				GI		Cphx,ERalpha-a			3 hits	3.2kb 3' of RP11-30K9.6
+
+
+Query SNP: rs2632516 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+17	58326988	0.94	0.98	rs2526378	A	G	0.62	0.43	0.52	0.47		BLD, BRN	6 tissues	BLD,BLD	POL2,POL24H8,POL2S2	6 altered motifs		5 hits	5 hits	BZRAP1	intronic
+17	58331728	1	1	rs2632516	G	C	0.63	0.41	0.52	0.46		14 tissues	8 tissues	9 tissues	4 bound proteins	4 altered motifs			4 hits	hsa-mir-142	intronic
+17	58332680	0.97	0.99	rs2526377	A	G	0.60	0.45	0.51	0.46		12 tissues	ESC, IPSC	17 tissues	9 bound proteins	9 altered motifs			1 hit	RP5-1171I10.4	intronic
+
+
+Query SNP: rs28394864 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+17	49334625	0.82	0.92	rs9895986	A	G	0.38	0.39	0.48	0.45			11 tissues			Irf,Mef2,SIX5			2 hits	ZNF652	intronic
+17	49341336	0.83	0.92	rs12943264	T	C	0.39	0.39	0.49	0.45		FAT, BLD	14 tissues	BLD,BLD		5 altered motifs			4 hits	ZNF652	intronic
+17	49344147	0.82	0.92	rs4514717	G	A	0.37	0.38	0.48	0.45			5 tissues			TCF12			2 hits	ZNF652	intronic
+17	49350149	0.84	0.93	rs9909827	T	C	0.37	0.38	0.48	0.45			BLD, ADRL, CRVX						2 hits	ZNF652	intronic
+17	49350837	0.84	0.93	rs4444384	G	A	0.39	0.39	0.49	0.45			4 tissues			6 altered motifs			2 hits	ZNF652	intronic
+17	49351211	0.84	0.92	rs7225787	A	C	0.37	0.40	0.49	0.46			LNG, BLD			ATF3,TATA		1 hit	4 hits	ZNF652	intronic
+17	49353734	0.84	0.93	rs28618326	T	C	0.37	0.38	0.49	0.45		GI	9 tissues	LNG,BLD		4 altered motifs			2 hits	ZNF652	intronic
+17	49355215	0.84	0.93	rs7213090	T	C	0.37	0.38	0.49	0.45			BLD			Irf,Mef2,SIX5			4 hits	ZNF652	intronic
+17	49355517	0.83	0.92	rs28483960	C	T	0.38	0.38	0.49	0.46			BLD	KID		THAP1,YY1,Zbtb3			2 hits	ZNF652	intronic
+17	49359450	0.83	0.92	rs8081878	A	T	0.37	0.38	0.49	0.46		6 tissues	18 tissues	GI		HNF1,Hoxc10		1 hit	19 hits	ZNF652	intronic
+17	49366218	0.88	0.94	rs12150526	C	T	0.41	0.36	0.39	0.46			6 tissues			E2F,Eomes,Maf			2 hits	RP11-1079K10.3
+17	49366751	0.88	0.94	rs8067459	T	C	0.41	0.36	0.39	0.46						8 altered motifs			2 hits	RP11-1079K10.3
+17	49367059	0.88	0.94	rs12937404	T	G	0.40	0.36	0.39	0.46						Roaz			4 hits	RP11-1079K10.3
+17	49367080	0.88	0.94	rs12937634	T	C	0.41	0.36	0.39	0.46						Duxl,PRDM1			4 hits	RP11-1079K10.3
+17	49367200	0.82	0.92	rs67726002	GTT	G	0.41	0.36	0.35	0.45						9 altered motifs			2 hits	RP11-1079K10.3
+17	49373413	1	1	rs28394864	G	A	0.26	0.38	0.37	0.46			BLD			4 altered motifs			2 hits	RP11-81K2.1
+
+
+Query SNP: rs6504163 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+17	63468418	1	1	rs6504163	C	T	0.93	0.72	0.63	0.63				THYM		Elf3,Elf5,STAT			6 hits	8.6kb 5' of ACE
+17	63470201	0.96	0.98	rs8077276	G	A	0.63	0.67	0.65	0.62									6 hits	6.9kb 5' of ACE
+17	63471115	0.93	0.98	rs4968782	G	A	0.55	0.64	0.65	0.62						EBF,ZID	1 hit		5 hits	5.9kb 5' of ACE
+17	63471557	0.92	0.96	rs4277405	C	T	0.65	0.67	0.66	0.63						4 altered motifs			10 hits	5.5kb 5' of ACE
+17	63471587	0.94	0.98	rs4459609	C	A	0.66	0.67	0.66	0.62						GZF1,TATA,p53		3 hits	6 hits	5.5kb 5' of ACE
+17	63473368	0.93	0.98	rs4968783	C	A	0.56	0.65	0.66	0.62						Pax-4,STAT			5 hits	3.7kb 5' of ACE
+17	63476833	0.88	0.96	rs4291	T	A	0.60	0.67	0.65	0.61		16 tissues	9 tissues	15 tissues					6 hits	227bp 5' of ACE
+17	63476980	0.86	0.96	rs4292	C	T	0.90	0.71	0.63	0.64		20 tissues	7 tissues	27 tissues	POL2,EGR1,HAE2F1	4 altered motifs			13 hits	80bp 5' of ACE
+17	63478937	0.91	0.95	rs4295	C	G	0.60	0.67	0.66	0.63		9 tissues	22 tissues	41 tissues	10 bound proteins	CTCF,SP1		3 hits	6 hits	ACE	intronic
+17	63482264	0.91	0.97	rs4308	A	G	0.95	0.72	0.68	0.63			SKIN			4 altered motifs			7 hits	ACE	intronic
+
+
+Query SNP: rs708382 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+17	44357262	0.8	0.94	rs850738	A	G	0.65	0.31	0.42	0.39			MUS	BLD,PLCNT		Nkx2			3 hits	FAM171A2	intronic
+17	44360314	0.86	0.99	rs708384	C	A	0.74	0.29	0.36	0.38		SKIN	12 tissues	8 tissues		8 altered motifs		1 hit	7 hits	FAM171A2	intronic
+17	44360386	0.86	0.99	rs708383	G	A	0.74	0.29	0.36	0.38		SKIN	12 tissues	OVRY,BLD					4 hits	FAM171A2	intronic
+17	44364976	1	1	rs708382	T	C	0.43	0.37	0.41	0.42			FAT			16 altered motifs	1 hit	1 hit	7 hits	1.1kb 5' of FAM171A2
+17	44366416	0.99	1	rs850737	T	C	0.43	0.37	0.41	0.41			ESC, FAT, BRN	ESC,BLD,OVRY		Irf			6 hits	2.5kb 5' of FAM171A2
+17	44369052	0.92	0.99	rs850736	G	C	0.53	0.36	0.41	0.40			LIV			8 altered motifs			3 hits	3.1kb 3' of ITGA2B
+17	44371657	0.93	0.99	rs850734	C	G	0.43	0.36	0.41	0.40			LIV	BRN					3 hits	524bp 3' of ITGA2B
+17	44372421	0.91	0.99	rs5910	G	A	0.43	0.36	0.40	0.40		LIV	ESC	ESDR		ERalpha-a,Myc,Pax-5			6 hits	ITGA2B	synonymous
+17	44373937	0.91	0.98	rs850733	G	A	0.43	0.36	0.41	0.40		ESC	5 tissues						3 hits	ITGA2B	intronic
+17	44375697	0.89	0.98	rs5911	A	C	0.43	0.36	0.42	0.40		ESC, IPSC, LIV	13 tissues	5 tissues		12 altered motifs			6 hits	ITGA2B	missense
+17	44376875	0.89	0.98	rs850732	C	T	0.43	0.36	0.42	0.40			7 tissues			MIF-1,NRSF,Pax-6			3 hits	ITGA2B	intronic
+17	44377095	0.89	0.98	rs850730	G	C	0.42	0.36	0.42	0.40			5 tissues			Ik-1			6 hits	ITGA2B	intronic
+17	44377438	0.88	0.98	rs850729	C	T	0.42	0.36	0.41	0.40						RXRA,Zfx			3 hits	ITGA2B	intronic
+
+
+Query SNP: rs7209200 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+17	5058064	0.81	-0.9	rs401742	G	A	0.38	0.79	0.76	0.68						8 altered motifs			5 hits	6.1kb 5' of SLC52A1
+17	5059986	0.83	0.92	rs12325720	T	C	0.43	0.20	0.24	0.33					ZNF263	ERalpha-a,SP1			5 hits	8kb 5' of SLC52A1
+17	5060034	0.84	0.93	rs12325828	G	T	0.43	0.20	0.25	0.33						EBF			5 hits	8kb 5' of SLC52A1
+17	5060385	0.83	-0.93	rs487622	A	T	0.37	0.79	0.76	0.66						GATA,Gfi1			5 hits	8.4kb 5' of SLC52A1
+17	5060674	0.84	0.93	rs4389189	C	T	0.30	0.20	0.24	0.34						PLAG1			4 hits	8.7kb 5' of SLC52A1
+17	5060784	0.84	-0.94	rs34451441	A	AAAG	0.37	0.78	0.76	0.66						DMRT3,Pou1f1			1 hit	8.8kb 5' of SLC52A1
+17	5061323	0.85	0.93	rs6502836	C	T	0.40	0.21	0.24	0.33						4 altered motifs			4 hits	9.3kb 5' of SLC52A1
+17	5062294	0.92	-0.98	rs9911764	T	A	0.37	0.78	0.76	0.66			LNG	BLD,BLD					9 hits	10kb 5' of SLC52A1
+17	5063763	0.91	-0.98	rs8064498	T	G	0.51	0.79	0.75	0.66						11 altered motifs			4 hits	12kb 5' of SLC52A1
+17	5064429	0.89	-0.99	rs9893471	C	A	0.37	0.75	0.73	0.65						9 altered motifs			5 hits	11kb 3' of RP11-46I8.3
+17	5064512	0.89	-0.96	rs12452057	A	T	0.37	0.76	0.73	0.67						Ik-1,NRSF			9 hits	11kb 3' of RP11-46I8.3
+17	5064847	0.99	1	rs8069681	A	T	0.29	0.19	0.24	0.32						Pax-2			4 hits	11kb 3' of RP11-46I8.3
+17	5066645	1	1	rs7209200	C	T	0.35	0.21	0.24	0.33						SETDB1,STAT			4 hits	9kb 3' of RP11-46I8.3
+17	5068622	0.99	1	rs7220643	A	C	0.43	0.21	0.24	0.32						22 altered motifs			5 hits	7.1kb 3' of RP11-46I8.3
+
+
+Query SNP: rs12151021 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+19	1050875	1	1	rs12151021	A	G	0.55	0.78	0.52	0.68		LIV				Myb,Zbtb3			1 hit	ABCA7	intronic
+
+
+Query SNP: rs1354106 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+19	51224706	0.9	1	rs3865444	C	A	0.07	0.42	0.17	0.31		ESDR, BLD, CRVX	BLD			CDP,Foxo,SREBP	2 hits	1 hit	3 hits	357bp 5' of CD33
+19	51225221	0.9	1	rs12459419	C	T	0.07	0.42	0.18	0.31		9 tissues	BLD, BRN, THYM	BLD	POL2,TAF1,TBP	PLAG1,Roaz		1 hit	2 hits	CD33	missense
+19	51227920	0.99	1	rs7245846	G	A	0.42	0.48	0.21	0.33		BLD	BLD			Nanog,Nrf1		1 hit	2 hits	CD33	intronic
+0.99	0.99	rs199635234	TG	T	0.45	0.49	0.21	0.33						10 altered motifs				CD33	intronic
+19	51231768	0.91	0.99	rs34912427	T	TA	0.18	0.47	0.18	0.31						21 altered motifs			2 hits	CD33	intronic
+19	51233128	0.91	1	rs33978622	G	C	0.08	0.44	0.18	0.31				SKIN		UF1H3BETA,ZBRK1		1 hit	2 hits	CD33	intronic
+19	51233866	0.98	1	rs34813869	A	G	0.30	0.44	0.20	0.33						5 altered motifs		1 hit	2 hits	CD33	intronic
+19	51234736	1	1	rs1354106	T	G	0.43	0.49	0.21	0.33						Mef2,RXRA		1 hit	3 hits	CD33	intronic
+
+
+Query SNP: rs1761461 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+19	54302959	0.82	0.93	rs2781753	C	T	0.64	0.55	0.88	0.51		BLD	BLD						5 hits	4.1kb 3' of LILRA5
+19	54304091	0.81	0.91	rs1761452	T	C	0.25	0.52	0.79	0.50		BLD	BLD, THYM	BLD					6 hits	3kb 3' of LILRA5
+19	54305226	0.84	0.94	rs1761451	C	T	0.17	0.52	0.83	0.51		BLD	BLD, THYM	BLD		EWSR1-FLI1		1 hit	10 hits	1.8kb 3' of LILRA5
+19	54309396	0.95	0.97	rs1761464	T	C	0.68	0.57	0.87	0.49			BLD			9 altered motifs			4 hits	LILRA5	intronic
+19	54310177	0.96	0.99	rs1645786	A	G	0.68	0.58	0.87	0.50			BLD						4 hits	LILRA5	intronic
+19	54310548	0.96	0.99	rs759818	A	G	0.67	0.57	0.87	0.50			BLD	BLD				8 hits	8 hits	LILRA5	intronic
+19	54313903	1	1	rs1761461	A	C	0.75	0.59	0.87	0.49			BLD			Pdx1,TCF11::MafG			4 hits	AC008984.2
+19	54315389	0.84	0.97	rs1761460	T	C	0.62	0.59	0.86	0.46			BLD			8 altered motifs			2 hits	AC008984.2
+19	54317309	0.96	0.98	rs1645780	G	C	0.79	0.60	0.87	0.49		ESC, IPSC, BLD	ESC, IPSC, BLD	8 tissues	4 bound proteins	TCF11::MafG			4 hits	AC008984.2
+
+
+Query SNP: rs2452170 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+19	48702851	0.82	0.97	rs679574	C	G	0.49	0.38	0.01	0.43			SPLN			RREB-1			31 hits	FUT2	intronic
+19	48702888	0.82	0.97	rs516316	G	C	0.49	0.38	0.01	0.43			SPLN			Myc,Nrf1		1 hit	30 hits	FUT2	intronic
+19	48702915	0.82	0.97	rs516246	C	T	0.49	0.38	0.01	0.43			SPLN			8 altered motifs	3 hits	178 hits	31 hits	FUT2	intronic
+19	48703160	0.82	0.96	rs492602	A	G	0.49	0.38	0.01	0.43						CHOP::CEBPalpha,Znf143	4 hits	12 hits	31 hits	FUT2	synonymous
+19	48703205	0.82	0.97	rs681343	C	T	0.49	0.38	0.01	0.43								1 hit	31 hits	FUT2	synonymous
+19	48703417	0.82	0.97	rs601338	G	A	0.49	0.38	0.01	0.43						HDAC2,HNF4	2 hits		31 hits	FUT2	nonsense
+19	48703728	0.91	0.96	rs602662	G	A	0.49	0.40	0.01	0.46			SKIN, LNG			RREB-1,SP1	2 hits	9 hits	28 hits	FUT2	missense
+19	48703949	0.92	0.96	rs485186	A	G	0.50	0.40	0.01	0.46						CEBPB,GATA,SP1		3 hits	28 hits	FUT2	synonymous
+19	48703998	0.92	0.96	rs485073	A	G	0.51	0.40	0.01	0.46						GCM			28 hits	FUT2	3'-UTR
+19	48704000	0.92	0.96	rs603985	T	C	0.50	0.40	0.01	0.46						Nr2f2,Sox			27 hits	FUT2	3'-UTR
+19	48704297	0.91	0.95	rs571689	C	T	0.55	0.39	0.01	0.46						E2A,Pax-4,ZEB1			24 hits	FUT2	3'-UTR
+19	48704394	0.92	0.96	rs570794	T	C	0.56	0.39	0.01	0.46						TCF11::MafG			25 hits	FUT2	3'-UTR
+19	48704461	0.92	0.96	rs569970	T	C	0.55	0.40	0.01	0.46						4 altered motifs		1 hit	25 hits	FUT2	3'-UTR
+19	48704535	0.92	0.96	rs2251034	G	A	0.47	0.38	0.01	0.46						CDP,Pax-6			27 hits	FUT2	3'-UTR
+19	48705087	0.88	0.96	rs28362844	AC	A	0.51	0.37	0.01	0.45						12 altered motifs			23 hits	FUT2	3'-UTR
+19	48705244	0.87	0.96	rs507855	A	G	0.51	0.37	0.01	0.45						LUN-1,Pitx2			25 hits	FUT2	3'-UTR
+19	48705286	0.92	0.96	rs507766	T	C	0.52	0.38	0.01	0.46						4 altered motifs			25 hits	FUT2	3'-UTR
+19	48705307	0.92	0.96	rs507711	C	T	0.52	0.38	0.01	0.46						GR,SIX5			24 hits	FUT2	3'-UTR
+19	48705372	0.92	0.96	rs506897	G	C	0.52	0.38	0.01	0.46			SKIN, LIV			NRSF			24 hits	FUT2	3'-UTR
+19	48705608	0.92	0.96	rs504963	G	A	0.52	0.38	0.01	0.46			SKIN, GI, LIV	KID		Ets,GR,Hbp1	1 hit	3 hits	25 hits	FUT2	3'-UTR
+19	48705721	0.92	0.96	rs632111	A	G	0.45	0.38	0.01	0.46			SKIN, GI, LIV	SKIN,GI,KID		4 altered motifs	1 hit	1 hit	29 hits	FUT2	3'-UTR
+19	48705753	0.92	0.96	rs503279	T	C	0.52	0.38	0.01	0.46			SKIN, GI	GI		Gm397,Mtf1,TCF12	2 hits	5 hits	25 hits	FUT2	3'-UTR
+19	48705969	0.92	0.96	rs633372	G	A	0.47	0.38	0.01	0.46			KID	GI		CEBPB			29 hits	18bp 3' of FUT2
+19	48706068	0.89	0.96	rs2548458	C	T	0.46	0.37	0.01	0.45			KID			5 altered motifs			28 hits	117bp 3' of FUT2
+19	48706082	0.9	0.96	rs2548459	T	C	0.47	0.37	0.01	0.45			KID			Nr2f2			26 hits	131bp 3' of FUT2
+19	48706207	0.93	0.97	rs692854	C	A	0.52	0.38	0.01	0.46				KID		Myc			24 hits	256bp 3' of FUT2
+19	48706303	0.87	0.97	rs1688264	T	G	0.45	0.37	0.01	0.44						6 altered motifs			28 hits	352bp 3' of FUT2
+19	48706309	0.87	0.97	rs1704773	A	G	0.45	0.37	0.01	0.44						Foxp1,PLZF			28 hits	358bp 3' of FUT2
+19	48706594	0.94	0.98	rs646327	A	G	0.52	0.38	0.01	0.46						ATF3,HNF4,SREBP			24 hits	643bp 3' of FUT2
+19	48708231	0.88	0.97	rs66744711	13-mer	C	0.43	0.37	0.01	0.45						7 altered motifs			28 hits	2.3kb 3' of FUT2
+19	48708712	0.99	1	rs676388	T	C	0.50	0.38	0.01	0.46		SKIN	6 tissues	5 tissues	USF1	AhR		1 hit	25 hits	2.8kb 3' of FUT2
+19	48710027	1	1	rs584768	G	A	0.43	0.38	0.01	0.46						8 altered motifs			28 hits	3kb 3' of MAMSTR
+19	48710247	1	1	rs2452170	G	A	0.44	0.37	0.01	0.46						E2A,ZEB1			28 hits	2.8kb 3' of MAMSTR
+19	48710273	0.84	0.99	rs200433550	TA	T	0.47	0.35	0.00	0.42						35 altered motifs			25 hits	2.7kb 3' of MAMSTR
+19	48710576	0.99	1	rs2638282	G	A	0.41	0.37	0.01	0.46				MUS					29 hits	2.4kb 3' of MAMSTR
+19	48711017	0.94	0.98	rs281379	G	A	0.22	0.33	0.01	0.45				ADRL,MUS		Bach1,Pax-2,Smad3	2 hits	3 hits	25 hits	2kb 3' of MAMSTR
+19	48714803	0.87	0.98	rs35866622	C	T	0.07	0.30	0.01	0.43		24 tissues	ESC, BRN, GI	26 tissues	POL2	Pou2f2,RREB-1			30 hits	MAMSTR	intronic
+
+
+Query SNP: rs769450 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+19	44895560	0.95	0.98	rs2238681	C	T	0.18	0.40	0.19	0.42			SKIN, ADRL			6 altered motifs				TOMM40	intronic
+19	44898409	0.95	0.98	rs8106922	A	G	0.18	0.40	0.20	0.42			BLD					2 hits	3 hits	TOMM40	intronic
+19	44899220	0.96	0.98	rs34878901	C	T	0.36	0.44	0.20	0.42				ADRL		ERalpha-a,Esr2				TOMM40	intronic
+19	44900155	0.85	0.99	rs1160985	C	T	0.59	0.55	0.29	0.46			IPSC, SKIN	4 tissues			3 hits		1 hit	TOMM40	intronic
+19	44900601	0.85	0.99	rs760136	A	G	0.59	0.55	0.29	0.46			IPSC, SKIN	BLD					1 hit	TOMM40	intronic
+19	44901174	0.81	0.97	rs741780	T	C	0.59	0.55	0.29	0.45				BLD		Hoxa5			1 hit	TOMM40	intronic
+19	44901715	0.84	0.98	rs1038025	T	C	0.59	0.55	0.29	0.46						ERalpha-a,Nrf-2,TCF11::MafG			1 hit	TOMM40	intronic
+19	44901805	0.85	0.99	rs1038026	A	G	0.59	0.55	0.28	0.46						Pax-4,Pax-5			1 hit	TOMM40	intronic
+19	44902264	0.95	0.98	rs1305062	G	C	0.31	0.41	0.20	0.42			LIV						1 hit	TOMM40	intronic
+19	44904531	0.85	0.99	rs7259620	G	A	0.40	0.52	0.29	0.46		ESDR, LIV, SPLN	16 tissues	11 tissues	POL2,POL2S2				1 hit	852bp 3' of TOMM40
+19	44907187	1	1	rs769450	G	A	0.31	0.36	0.19	0.42		SKIN, LIV, BRN	8 tissues			4 altered motifs			1 hit	APOE	intronic
+
+
+Query SNP: rs6069737 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+20	56408019	0.87	0.95	rs6069736	C	T	0.15	0.19	0.34	0.08			HRT, BLD			PLZF			5 hits	3.6kb 3' of CSTF1
+20	56409084	0.9	0.95	rs6024861	G	A	0.11	0.10	0.00	0.08			5 tissues			STAT,ZBTB33			5 hits	3kb 5' of CASS4
+20	56409712	0.9	0.95	rs6064392	G	T	0.14	0.10	0.00	0.08			9 tissues	25 tissues	CEBPB	ATF3			7 hits	2.4kb 5' of CASS4
+20	56412160	0.91	0.96	rs17462136	G	C	0.11	0.10	0.00	0.08		13 tissues	8 tissues	33 tissues	9 bound proteins	NF-Y			7 hits	CASS4	5'-UTR
+20	56413016	0.93	0.98	rs73156368	C	T	0.27	0.12	0.00	0.08		6 tissues	5 tissues	BLD,BLD		Pbx-1			4 hits	CASS4	intronic
+20	56414777	0.93	0.98	rs6014722	T	A	0.18	0.11	0.00	0.08		LNG, BLD	8 tissues			Foxp1,Hoxa13			4 hits	CASS4	intronic
+20	56420643	1	1	rs6069737	C	T	0.11	0.10	0.00	0.08			7 tissues			6 altered motifs			5 hits	CASS4	intronic
+20	56422512	0.96	1	rs6024870	G	A	0.11	0.10	0.00	0.08		7 tissues	20 tissues	9 tissues	4 bound proteins	4 altered motifs			5 hits	CASS4	intronic
+20	56423488	0.95	0.98	rs6014724	A	G	0.15	0.19	0.34	0.08		MUS	11 tissues			Foxj1			7 hits	CASS4	intronic
+20	56428409	0.98	1	rs718022	G	A	0.14	0.10	0.00	0.08		BLD, MUS	11 tissues	MUS					6 hits	CASS4	intronic
+20	56430168	0.96	1	rs56012565	G	A	0.05	0.10	0.00	0.08		BLD, MUS, LNG	13 tissues	LNG,LNG,BRN		Pax-5			5 hits	CASS4	intronic
+20	56434798	0.96	1	rs6099146	A	G	0.04	0.10	0.00	0.08			FAT, LNG			Irf			7 hits	CASS4	intronic
+20	56437936	0.85	0.94	rs76842328	T	C	0.01	0.10	0.00	0.08			7 tissues			CACD			3 hits	CASS4	intronic
+20	56440110	0.83	0.93	rs927174	A	C	0.04	0.10	0.00	0.08		BLD, SKIN, LNG	17 tissues	27 tissues		Smad3			5 hits	CASS4	intronic
+20	56443204	0.81	0.93	rs7274581	T	C	0.27	0.13	0.00	0.08			7 tissues	LNG,PLCNT		E2F,Sin3Ak-20,YY1	1 hit		3 hits	CASS4	intronic
+20	56443413	0.81	0.93	rs113902203	A	G	0.04	0.10	0.00	0.08			7 tissues			ERalpha-a,YY1			3 hits	CASS4	intronic
+
+
+Query SNP: rs2154482 and variants with r2 >= 0.8
+chr	pos (hg38)	LD
+(r²)	LD
+(D')	variant	Ref	Alt	AFR
+freq	AMR
+freq	ASN
+freq	EUR
+freq	SiPhy
+cons	Promoter
+histone marks	Enhancer
+histone marks	DNAse	Proteins
+bound	Motifs
+changed	NHGRI/EBI
+GWAS hits	GRASP QTL
+hits	Selected eQTL
+hits	GENCODE
+genes	dbSNP
+func annot
+21	26105697	0.83	-0.92	rs2256331	G	T	0.17	0.32	0.63	0.55			7 tissues			Pou2f2,Pou3f3,Sox			2 hits	APP	intronic
+21	26109027	0.82	-0.91	rs2830057	A	C	0.19	0.34	0.63	0.55			BRN						2 hits	APP	intronic
+21	26121885	0.88	-0.96	rs2830066	C	T	0.17	0.33	0.63	0.55			5 tissues			AP-3			2 hits	APP	intronic
+21	26123865	0.86	-0.94	rs2234990	T	A	0.20	0.34	0.63	0.55		HRT	19 tissues	HRT		5 altered motifs			2 hits	APP	intronic
+21	26128343	0.81	-0.95	rs2830072	T	G	0.05	0.31	0.44	0.53		STRM, MUS	16 tissues	8 tissues	CFOS	Sox			2 hits	APP	intronic
+21	26128825	0.81	-0.95	rs2830073	T	C	0.06	0.31	0.44	0.53			17 tissues	5 tissues					2 hits	APP	intronic
+21	26130406	0.82	-0.97	rs2830077	C	A	0.05	0.31	0.44	0.52		SKIN	15 tissues	12 tissues		Hand1,LBP-1,STAT			2 hits	APP	intronic
+21	26132523	0.82	0.96	rs11356038	TA	T	0.94	0.69	0.56	0.47			4 tissues			Mef2				APP	intronic
+21	26135742	0.85	0.99	rs432766	T	C	0.95	0.69	0.56	0.48			9 tissues	ESDR,HRT		GR			1 hit	APP	intronic
+21	26137978	0.98	0.99	rs2830084	A	C	0.72	0.60	0.36	0.44		BLD	16 tissues	HRT,BRST,MUS	CFOS	Pax-4,SIX5,Spz1				APP	intronic
+21	26140735	0.98	0.99	rs2830087	T	C	0.71	0.60	0.36	0.45		LNG	15 tissues	6 tissues		Sox				APP	intronic
+21	26142055	0.88	1	rs375369	G	A	0.83	0.69	0.58	0.48			10 tissues			ELF1,NF-AT,ZEB1				APP	intronic
+21	26142422	0.99	1	rs2830088	T	C	0.71	0.60	0.35	0.44			7 tissues			MAZR,STAT,UF1H3BETA				APP	intronic
+21	26142777	0.85	-1	rs1788283	A	C	0.04	0.31	0.43	0.52			BLD			7 altered motifs				APP	intronic
+21	26142921	0.98	1	rs2830089	C	G	0.71	0.60	0.36	0.45			BLD			5 altered motifs				APP	intronic
+21	26144242	0.99	1	rs2226349	G	C	0.71	0.60	0.35	0.44			THYM, BLD	THYM,BRN		7 altered motifs				APP	intronic
+21	26144759	0.88	1	rs467021	A	C	0.95	0.70	0.58	0.48			4 tissues			Irf				APP	intronic
+21	26148613	1	1	rs2154482	G	T	0.78	0.60	0.35	0.44		9 tissues	19 tissues	8 tissues		Irf,Pax-6				APP	intronic
+21	26150590	0.85	0.96	rs12483003	T	C	0.71	0.59	0.34	0.46			7 tissues	BLD		4 altered motifs				APP	intronic
+21	26150618	0.81	0.94	rs404164	C	T	0.95	0.68	0.57	0.46			7 tissues	BLD		Smad3,Smad				APP	intronic
+21	26158949	0.85	0.99	rs368196	T	C	0.95	0.69	0.58	0.48			11 tissues	8 tissues						AP001439.2	intronic
+21	26160704	0.83	0.97	rs465235	C	G	0.84	0.68	0.58	0.47			8 tissues			6 altered motifs				AP001439.2	intronic

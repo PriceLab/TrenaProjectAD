@@ -1,0 +1,146 @@
+Query SNP: rs13387327 and variants with r2 >= 0.8
+2	127155141	0.99	1	rs6720233	A	G	0.32	0.23	0.26	0.31		FAT	15 tissues	9 tissues					1 hit	29kb 3' of CYP27C1
+2	127156380	0.99	1	rs729665	A	C	0.30	0.23	0.26	0.31		FAT	11 tissues	ESDR,MUS		4 altered motifs		1 hit	1 hit	28kb 3' of CYP27C1
+2	127156774	0.99	1	rs13385169	G	T	0.30	0.23	0.26	0.31			8 tissues			ATF3			1 hit	27kb 3' of CYP27C1
+2	127158985	0.99	1	rs6739711	T	C	0.30	0.23	0.25	0.31			5 tissues	7 tissues	NFKB,PU1	11 altered motifs		1 hit	2 hits	25kb 3' of CYP27C1
+2	127160173	0.99	1	rs7589659	A	G	0.30	0.23	0.25	0.31						6 altered motifs		2 hits	1 hit	24kb 3' of CYP27C1
+2	127160373	0.99	1	rs6735116	C	G	0.30	0.23	0.25	0.31									1 hit	24kb 3' of CYP27C1
+2	127160458	0.99	1	rs6740727	A	G	0.30	0.23	0.25	0.31			BRN, GI			MIF-1		1 hit	1 hit	24kb 3' of CYP27C1
+2	127160469	0.99	1	rs6723828	G	A	0.30	0.23	0.25	0.31			BRN, GI					1 hit	1 hit	24kb 3' of CYP27C1
+2	127160485	0.99	1	rs6740825	A	G	0.30	0.23	0.25	0.31			BRN, GI			NRSF		1 hit	1 hit	24kb 3' of CYP27C1
+2	127161007	0.99	1	rs72843649	G	A	0.30	0.23	0.25	0.31			GI, LNG						1 hit	23kb 3' of CYP27C1
+2	127161180	0.99	1	rs57415470	T	G	0.30	0.23	0.25	0.31			GI, KID, LNG			5 altered motifs			1 hit	23kb 3' of CYP27C1
+2	127161256	0.99	1	rs55667827	A	T	0.30	0.23	0.25	0.31			6 tissues			AP-2rep,NF-kappaB			1 hit	23kb 3' of CYP27C1
+2	127161663	1	1	rs4439906	C	A	0.30	0.23	0.25	0.31			5 tissues	5 tissues		PTF1-beta			1 hit	22kb 3' of CYP27C1
+2	127161665	1	1	rs4456650	G	A	0.30	0.23	0.25	0.31			5 tissues	4 tissues		BRCA1,FAC1,HNF4			1 hit	22kb 3' of CYP27C1
+2	127161908	0.97	0.99	rs13394319	C	G	0.30	0.23	0.25	0.32			6 tissues	BRST,SKIN,LNG		8 altered motifs			1 hit	22kb 3' of CYP27C1
+2	127162044	1	1	rs905656	G	A	0.30	0.23	0.25	0.31			6 tissues	KID				2 hits	1 hit	22kb 3' of CYP27C1
+2	127162390	1	1	rs13387327	G	C	0.30	0.23	0.25	0.31			5 tissues			11 altered motifs		1 hit	1 hit	22kb 3' of CYP27C1
+2	127163639	1	1	rs55743982	T	A	0.30	0.23	0.25	0.31			GI, KID			Irf,PU.1,ZBTB33			1 hit	20kb 3' of CYP27C1
+2	127164144	0.93	1	rs1983088	C	T	0.03	0.15	0.11	0.30			5 tissues	HRT,LNG		Maf,PU.1			4 hits	20kb 3' of CYP27C1
+2	127164314	1	1	rs1983087	G	C	0.30	0.23	0.24	0.31			4 tissues			Mef2			1 hit	20kb 3' of CYP27C1
+2	127164656	1	1	rs17701884	A	G	0.31	0.23	0.24	0.31			MUS			Evi-1,Foxl1			1 hit	19kb 3' of CYP27C1
+2	127164859	1	1	rs56022253	T	A	0.15	0.22	0.25	0.31			MUS, THYM			4 altered motifs			1 hit	19kb 3' of CYP27C1
+2	127164889	0.99	1	rs56404717	G	T	0.14	0.23	0.25	0.31			MUS, THYM			PPAR			1 hit	19kb 3' of CYP27C1
+2	127165024	0.99	1	rs55653802	A	G	0.28	0.24	0.25	0.31			MUS, THYM			ERalpha-a,Rad21			1 hit	19kb 3' of CYP27C1
+2	127165044	0.99	1	rs56112255	T	C	0.28	0.23	0.25	0.31			6 tissues						1 hit	19kb 3' of CYP27C1
+2	127165120	0.98	0.99	rs6742671	T	C	0.32	0.24	0.25	0.31			6 tissues			9 altered motifs			1 hit	19kb 3' of CYP27C1
+Query SNP: rs13394319 and variants with r2 >= 0.8
+2	127155141	0.96	0.99	rs6720233	A	G	0.32	0.23	0.26	0.31		FAT	15 tissues	9 tissues					1 hit	29kb 3' of CYP27C1
+2	127156380	0.96	0.99	rs729665	A	C	0.30	0.23	0.26	0.31		FAT	11 tissues	ESDR,MUS		4 altered motifs		1 hit	1 hit	28kb 3' of CYP27C1
+2	127156774	0.96	0.99	rs13385169	G	T	0.30	0.23	0.26	0.31			8 tissues			ATF3			1 hit	27kb 3' of CYP27C1
+2	127158985	0.96	0.99	rs6739711	T	C	0.30	0.23	0.25	0.31			5 tissues	7 tissues	NFKB,PU1	11 altered motifs		1 hit	2 hits	25kb 3' of CYP27C1
+2	127160173	0.96	0.99	rs7589659	A	G	0.30	0.23	0.25	0.31						6 altered motifs		2 hits	1 hit	24kb 3' of CYP27C1
+2	127160373	0.96	0.99	rs6735116	C	G	0.30	0.23	0.25	0.31									1 hit	24kb 3' of CYP27C1
+2	127160458	0.96	0.99	rs6740727	A	G	0.30	0.23	0.25	0.31			BRN, GI			MIF-1		1 hit	1 hit	24kb 3' of CYP27C1
+2	127160469	0.96	0.99	rs6723828	G	A	0.30	0.23	0.25	0.31			BRN, GI					1 hit	1 hit	24kb 3' of CYP27C1
+2	127160485	0.96	0.99	rs6740825	A	G	0.30	0.23	0.25	0.31			BRN, GI			NRSF		1 hit	1 hit	24kb 3' of CYP27C1
+2	127161007	0.96	0.99	rs72843649	G	A	0.30	0.23	0.25	0.31			GI, LNG						1 hit	23kb 3' of CYP27C1
+2	127161180	0.96	0.99	rs57415470	T	G	0.30	0.23	0.25	0.31			GI, KID, LNG			5 altered motifs			1 hit	23kb 3' of CYP27C1
+2	127161256	0.96	0.99	rs55667827	A	T	0.30	0.23	0.25	0.31			6 tissues			AP-2rep,NF-kappaB			1 hit	23kb 3' of CYP27C1
+2	127161663	0.97	0.99	rs4439906	C	A	0.30	0.23	0.25	0.31			5 tissues	5 tissues		PTF1-beta			1 hit	22kb 3' of CYP27C1
+2	127161665	0.97	0.99	rs4456650	G	A	0.30	0.23	0.25	0.31			5 tissues	4 tissues		BRCA1,FAC1,HNF4			1 hit	22kb 3' of CYP27C1
+2	127161908	1	1	rs13394319	C	G	0.30	0.23	0.25	0.32			6 tissues	BRST,SKIN,LNG		8 altered motifs			1 hit	22kb 3' of CYP27C1
+2	127162044	0.97	0.99	rs905656	G	A	0.30	0.23	0.25	0.31			6 tissues	KID				2 hits	1 hit	22kb 3' of CYP27C1
+2	127162390	0.97	0.99	rs13387327	G	C	0.30	0.23	0.25	0.31			5 tissues			11 altered motifs		1 hit	1 hit	22kb 3' of CYP27C1
+2	127163639	0.97	0.99	rs55743982	T	A	0.30	0.23	0.25	0.31			GI, KID			Irf,PU.1,ZBTB33			1 hit	20kb 3' of CYP27C1
+2	127164144	0.9	0.99	rs1983088	C	T	0.03	0.15	0.11	0.30			5 tissues	HRT,LNG		Maf,PU.1			4 hits	20kb 3' of CYP27C1
+2	127164314	0.97	0.99	rs1983087	G	C	0.30	0.23	0.24	0.31			4 tissues			Mef2			1 hit	20kb 3' of CYP27C1
+2	127164656	0.97	0.99	rs17701884	A	G	0.31	0.23	0.24	0.31			MUS			Evi-1,Foxl1			1 hit	19kb 3' of CYP27C1
+2	127164859	0.97	0.99	rs56022253	T	A	0.15	0.22	0.25	0.31			MUS, THYM			4 altered motifs			1 hit	19kb 3' of CYP27C1
+2	127164889	0.96	0.99	rs56404717	G	T	0.14	0.23	0.25	0.31			MUS, THYM			PPAR			1 hit	19kb 3' of CYP27C1
+2	127165024	0.96	0.99	rs55653802	A	G	0.28	0.24	0.25	0.31			MUS, THYM			ERalpha-a,Rad21			1 hit	19kb 3' of CYP27C1
+2	127165044	0.96	0.99	rs56112255	T	C	0.28	0.23	0.25	0.31			6 tissues						1 hit	19kb 3' of CYP27C1
+2	127165120	0.95	0.99	rs6742671	T	C	0.32	0.24	0.25	0.31			6 tissues			9 altered motifs			1 hit	19kb 3' of CYP27C1
+Query SNP: rs4439906 and variants with r2 >= 0.8
+2	127155141	0.99	1	rs6720233	A	G	0.32	0.23	0.26	0.31		FAT	15 tissues	9 tissues					1 hit	29kb 3' of CYP27C1
+2	127156380	0.99	1	rs729665	A	C	0.30	0.23	0.26	0.31		FAT	11 tissues	ESDR,MUS		4 altered motifs		1 hit	1 hit	28kb 3' of CYP27C1
+2	127156774	0.99	1	rs13385169	G	T	0.30	0.23	0.26	0.31			8 tissues			ATF3			1 hit	27kb 3' of CYP27C1
+2	127158985	0.99	1	rs6739711	T	C	0.30	0.23	0.25	0.31			5 tissues	7 tissues	NFKB,PU1	11 altered motifs		1 hit	2 hits	25kb 3' of CYP27C1
+2	127160173	0.99	1	rs7589659	A	G	0.30	0.23	0.25	0.31						6 altered motifs		2 hits	1 hit	24kb 3' of CYP27C1
+2	127160373	0.99	1	rs6735116	C	G	0.30	0.23	0.25	0.31									1 hit	24kb 3' of CYP27C1
+2	127160458	0.99	1	rs6740727	A	G	0.30	0.23	0.25	0.31			BRN, GI			MIF-1		1 hit	1 hit	24kb 3' of CYP27C1
+2	127160469	0.99	1	rs6723828	G	A	0.30	0.23	0.25	0.31			BRN, GI					1 hit	1 hit	24kb 3' of CYP27C1
+2	127160485	0.99	1	rs6740825	A	G	0.30	0.23	0.25	0.31			BRN, GI			NRSF		1 hit	1 hit	24kb 3' of CYP27C1
+2	127161007	0.99	1	rs72843649	G	A	0.30	0.23	0.25	0.31			GI, LNG						1 hit	23kb 3' of CYP27C1
+2	127161180	0.99	1	rs57415470	T	G	0.30	0.23	0.25	0.31			GI, KID, LNG			5 altered motifs			1 hit	23kb 3' of CYP27C1
+2	127161256	0.99	1	rs55667827	A	T	0.30	0.23	0.25	0.31			6 tissues			AP-2rep,NF-kappaB			1 hit	23kb 3' of CYP27C1
+2	127161663	1	1	rs4439906	C	A	0.30	0.23	0.25	0.31			5 tissues	5 tissues		PTF1-beta			1 hit	22kb 3' of CYP27C1
+2	127161665	1	1	rs4456650	G	A	0.30	0.23	0.25	0.31			5 tissues	4 tissues		BRCA1,FAC1,HNF4			1 hit	22kb 3' of CYP27C1
+2	127161908	0.97	0.99	rs13394319	C	G	0.30	0.23	0.25	0.32			6 tissues	BRST,SKIN,LNG		8 altered motifs			1 hit	22kb 3' of CYP27C1
+2	127162044	1	1	rs905656	G	A	0.30	0.23	0.25	0.31			6 tissues	KID				2 hits	1 hit	22kb 3' of CYP27C1
+2	127162390	1	1	rs13387327	G	C	0.30	0.23	0.25	0.31			5 tissues			11 altered motifs		1 hit	1 hit	22kb 3' of CYP27C1
+2	127163639	1	1	rs55743982	T	A	0.30	0.23	0.25	0.31			GI, KID			Irf,PU.1,ZBTB33			1 hit	20kb 3' of CYP27C1
+2	127164144	0.93	1	rs1983088	C	T	0.03	0.15	0.11	0.30			5 tissues	HRT,LNG		Maf,PU.1			4 hits	20kb 3' of CYP27C1
+2	127164314	1	1	rs1983087	G	C	0.30	0.23	0.24	0.31			4 tissues			Mef2			1 hit	20kb 3' of CYP27C1
+2	127164656	1	1	rs17701884	A	G	0.31	0.23	0.24	0.31			MUS			Evi-1,Foxl1			1 hit	19kb 3' of CYP27C1
+2	127164859	1	1	rs56022253	T	A	0.15	0.22	0.25	0.31			MUS, THYM			4 altered motifs			1 hit	19kb 3' of CYP27C1
+2	127164889	0.99	1	rs56404717	G	T	0.14	0.23	0.25	0.31			MUS, THYM			PPAR			1 hit	19kb 3' of CYP27C1
+2	127165024	0.99	1	rs55653802	A	G	0.28	0.24	0.25	0.31			MUS, THYM			ERalpha-a,Rad21			1 hit	19kb 3' of CYP27C1
+2	127165044	0.99	1	rs56112255	T	C	0.28	0.23	0.25	0.31			6 tissues						1 hit	19kb 3' of CYP27C1
+2	127165120	0.98	0.99	rs6742671	T	C	0.32	0.24	0.25	0.31			6 tissues			9 altered motifs			1 hit	19kb 3' of CYP27C1
+Query SNP: rs4456650 and variants with r2 >= 0.8
+2	127155141	0.99	1	rs6720233	A	G	0.32	0.23	0.26	0.31		FAT	15 tissues	9 tissues					1 hit	29kb 3' of CYP27C1
+2	127156380	0.99	1	rs729665	A	C	0.30	0.23	0.26	0.31		FAT	11 tissues	ESDR,MUS		4 altered motifs		1 hit	1 hit	28kb 3' of CYP27C1
+2	127156774	0.99	1	rs13385169	G	T	0.30	0.23	0.26	0.31			8 tissues			ATF3			1 hit	27kb 3' of CYP27C1
+2	127158985	0.99	1	rs6739711	T	C	0.30	0.23	0.25	0.31			5 tissues	7 tissues	NFKB,PU1	11 altered motifs		1 hit	2 hits	25kb 3' of CYP27C1
+2	127160173	0.99	1	rs7589659	A	G	0.30	0.23	0.25	0.31						6 altered motifs		2 hits	1 hit	24kb 3' of CYP27C1
+2	127160373	0.99	1	rs6735116	C	G	0.30	0.23	0.25	0.31									1 hit	24kb 3' of CYP27C1
+2	127160458	0.99	1	rs6740727	A	G	0.30	0.23	0.25	0.31			BRN, GI			MIF-1		1 hit	1 hit	24kb 3' of CYP27C1
+2	127160469	0.99	1	rs6723828	G	A	0.30	0.23	0.25	0.31			BRN, GI					1 hit	1 hit	24kb 3' of CYP27C1
+2	127160485	0.99	1	rs6740825	A	G	0.30	0.23	0.25	0.31			BRN, GI			NRSF		1 hit	1 hit	24kb 3' of CYP27C1
+2	127161007	0.99	1	rs72843649	G	A	0.30	0.23	0.25	0.31			GI, LNG						1 hit	23kb 3' of CYP27C1
+2	127161180	0.99	1	rs57415470	T	G	0.30	0.23	0.25	0.31			GI, KID, LNG			5 altered motifs			1 hit	23kb 3' of CYP27C1
+2	127161256	0.99	1	rs55667827	A	T	0.30	0.23	0.25	0.31			6 tissues			AP-2rep,NF-kappaB			1 hit	23kb 3' of CYP27C1
+2	127161663	1	1	rs4439906	C	A	0.30	0.23	0.25	0.31			5 tissues	5 tissues		PTF1-beta			1 hit	22kb 3' of CYP27C1
+2	127161665	1	1	rs4456650	G	A	0.30	0.23	0.25	0.31			5 tissues	4 tissues		BRCA1,FAC1,HNF4			1 hit	22kb 3' of CYP27C1
+2	127161908	0.97	0.99	rs13394319	C	G	0.30	0.23	0.25	0.32			6 tissues	BRST,SKIN,LNG		8 altered motifs			1 hit	22kb 3' of CYP27C1
+2	127162044	1	1	rs905656	G	A	0.30	0.23	0.25	0.31			6 tissues	KID				2 hits	1 hit	22kb 3' of CYP27C1
+2	127162390	1	1	rs13387327	G	C	0.30	0.23	0.25	0.31			5 tissues			11 altered motifs		1 hit	1 hit	22kb 3' of CYP27C1
+2	127163639	1	1	rs55743982	T	A	0.30	0.23	0.25	0.31			GI, KID			Irf,PU.1,ZBTB33			1 hit	20kb 3' of CYP27C1
+2	127164144	0.93	1	rs1983088	C	T	0.03	0.15	0.11	0.30			5 tissues	HRT,LNG		Maf,PU.1			4 hits	20kb 3' of CYP27C1
+2	127164314	1	1	rs1983087	G	C	0.30	0.23	0.24	0.31			4 tissues			Mef2			1 hit	20kb 3' of CYP27C1
+2	127164656	1	1	rs17701884	A	G	0.31	0.23	0.24	0.31			MUS			Evi-1,Foxl1			1 hit	19kb 3' of CYP27C1
+2	127164859	1	1	rs56022253	T	A	0.15	0.22	0.25	0.31			MUS, THYM			4 altered motifs			1 hit	19kb 3' of CYP27C1
+2	127164889	0.99	1	rs56404717	G	T	0.14	0.23	0.25	0.31			MUS, THYM			PPAR			1 hit	19kb 3' of CYP27C1
+2	127165024	0.99	1	rs55653802	A	G	0.28	0.24	0.25	0.31			MUS, THYM			ERalpha-a,Rad21			1 hit	19kb 3' of CYP27C1
+2	127165044	0.99	1	rs56112255	T	C	0.28	0.23	0.25	0.31			6 tissues						1 hit	19kb 3' of CYP27C1
+2	127165120	0.98	0.99	rs6742671	T	C	0.32	0.24	0.25	0.31			6 tissues			9 altered motifs			1 hit	19kb 3' of CYP27C1
+Query SNP: rs905656 and variants with r2 >= 0.8
+2	127155141	0.99	1	rs6720233	A	G	0.32	0.23	0.26	0.31		FAT	15 tissues	9 tissues					1 hit	29kb 3' of CYP27C1
+2	127156380	0.99	1	rs729665	A	C	0.30	0.23	0.26	0.31		FAT	11 tissues	ESDR,MUS		4 altered motifs		1 hit	1 hit	28kb 3' of CYP27C1
+2	127156774	0.99	1	rs13385169	G	T	0.30	0.23	0.26	0.31			8 tissues			ATF3			1 hit	27kb 3' of CYP27C1
+2	127158985	0.99	1	rs6739711	T	C	0.30	0.23	0.25	0.31			5 tissues	7 tissues	NFKB,PU1	11 altered motifs		1 hit	2 hits	25kb 3' of CYP27C1
+2	127160173	0.99	1	rs7589659	A	G	0.30	0.23	0.25	0.31						6 altered motifs		2 hits	1 hit	24kb 3' of CYP27C1
+2	127160373	0.99	1	rs6735116	C	G	0.30	0.23	0.25	0.31									1 hit	24kb 3' of CYP27C1
+2	127160458	0.99	1	rs6740727	A	G	0.30	0.23	0.25	0.31			BRN, GI			MIF-1		1 hit	1 hit	24kb 3' of CYP27C1
+2	127160469	0.99	1	rs6723828	G	A	0.30	0.23	0.25	0.31			BRN, GI					1 hit	1 hit	24kb 3' of CYP27C1
+2	127160485	0.99	1	rs6740825	A	G	0.30	0.23	0.25	0.31			BRN, GI			NRSF		1 hit	1 hit	24kb 3' of CYP27C1
+2	127161007	0.99	1	rs72843649	G	A	0.30	0.23	0.25	0.31			GI, LNG						1 hit	23kb 3' of CYP27C1
+2	127161180	0.99	1	rs57415470	T	G	0.30	0.23	0.25	0.31			GI, KID, LNG			5 altered motifs			1 hit	23kb 3' of CYP27C1
+2	127161256	0.99	1	rs55667827	A	T	0.30	0.23	0.25	0.31			6 tissues			AP-2rep,NF-kappaB			1 hit	23kb 3' of CYP27C1
+2	127161663	1	1	rs4439906	C	A	0.30	0.23	0.25	0.31			5 tissues	5 tissues		PTF1-beta			1 hit	22kb 3' of CYP27C1
+2	127161665	1	1	rs4456650	G	A	0.30	0.23	0.25	0.31			5 tissues	4 tissues		BRCA1,FAC1,HNF4			1 hit	22kb 3' of CYP27C1
+2	127161908	0.97	0.99	rs13394319	C	G	0.30	0.23	0.25	0.32			6 tissues	BRST,SKIN,LNG		8 altered motifs			1 hit	22kb 3' of CYP27C1
+2	127162044	1	1	rs905656	G	A	0.30	0.23	0.25	0.31			6 tissues	KID				2 hits	1 hit	22kb 3' of CYP27C1
+2	127162390	1	1	rs13387327	G	C	0.30	0.23	0.25	0.31			5 tissues			11 altered motifs		1 hit	1 hit	22kb 3' of CYP27C1
+2	127163639	1	1	rs55743982	T	A	0.30	0.23	0.25	0.31			GI, KID			Irf,PU.1,ZBTB33			1 hit	20kb 3' of CYP27C1
+2	127164144	0.93	1	rs1983088	C	T	0.03	0.15	0.11	0.30			5 tissues	HRT,LNG		Maf,PU.1			4 hits	20kb 3' of CYP27C1
+2	127164314	1	1	rs1983087	G	C	0.30	0.23	0.24	0.31			4 tissues			Mef2			1 hit	20kb 3' of CYP27C1
+2	127164656	1	1	rs17701884	A	G	0.31	0.23	0.24	0.31			MUS			Evi-1,Foxl1			1 hit	19kb 3' of CYP27C1
+2	127164859	1	1	rs56022253	T	A	0.15	0.22	0.25	0.31			MUS, THYM			4 altered motifs			1 hit	19kb 3' of CYP27C1
+2	127164889	0.99	1	rs56404717	G	T	0.14	0.23	0.25	0.31			MUS, THYM			PPAR			1 hit	19kb 3' of CYP27C1
+2	127165024	0.99	1	rs55653802	A	G	0.28	0.24	0.25	0.31			MUS, THYM			ERalpha-a,Rad21			1 hit	19kb 3' of CYP27C1
+2	127165044	0.99	1	rs56112255	T	C	0.28	0.23	0.25	0.31			6 tissues						1 hit	19kb 3' of CYP27C1
+2	127165120	0.98	0.99	rs6742671	T	C	0.32	0.24	0.25	0.31			6 tissues			9 altered motifs			1 hit	19kb 3' of CYP27C1
+Query SNP: rs11682330 and variants with r2 >= 0.8
+2	127156259	0.99	1	rs729666	C	T	0.54	0.26	0.10	0.31		FAT	11 tissues	10 tissues	ZNF263	4 altered motifs		1 hit	2 hits	28kb 3' of CYP27C1
+2	127157961	1	1	rs4436906	G	A	0.47	0.25	0.11	0.31			16 tissues	12 tissues	5 bound proteins	8 altered motifs			2 hits	26kb 3' of CYP27C1
+2	127160368	0.99	1	rs11681085	G	A	0.45	0.25	0.10	0.31						AP-1			2 hits	24kb 3' of CYP27C1
+2	127160672	0.99	1	rs4663107	A	T	0.46	0.25	0.10	0.31			GI			DMRT1,Sox			3 hits	23kb 3' of CYP27C1
+2	127160862	0.99	1	rs4663108	C	T	0.43	0.25	0.10	0.31			GI, LNG			Zfp410			2 hits	23kb 3' of CYP27C1
+2	127162065	1	1	rs11682330	A	G	0.49	0.26	0.10	0.31			6 tissues	KID		Irf,Pax-5			2 hits	22kb 3' of CYP27C1
+2	127166025	0.93	0.97	rs1875801	C	T	0.65	0.32	0.25	0.31			8 tissues			Maf,Nkx2			3 hits	18kb 3' of CYP27C1
+2	127166117	0.92	0.96	rs1875800	A	T	0.66	0.32	0.25	0.31			8 tissues			4 altered motifs			4 hits	18kb 3' of CYP27C1
+2	127166535	0.91	0.96	rs7587461	C	T	0.48	0.26	0.11	0.31			4 tissues			NRSF,Sin3Ak-20			3 hits	18kb 3' of CYP27C1
+2	127168304	0.91	0.97	rs7603123	T	G	0.42	0.26	0.11	0.30			LIV			SP1,Znf143			1 hit	16kb 3' of CYP27C1
