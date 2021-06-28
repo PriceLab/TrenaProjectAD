@@ -155,6 +155,7 @@ displayTrack(igv, track)
 library(motifbreakR)
 library(SNPlocs.Hsapiens.dbSNP151.GRCh38)
 library(BSgenome.Hsapiens.UCSC.hg38)
+#----------------------------------------------------------------------------------------------------
 motifbreakrGOF <- function()
 {
    rsids <- subset(tbl.assoc, gene=="BIN1")$rsid
@@ -174,3 +175,8 @@ motifbreakrGOF <- function()
                           BPPARAM = BiocParallel::bpparam(),
                           verbose=TRUE)
 
+   save(results, file="27jun2021-motifbreakR-30eqtl-associated.RData")
+   tbl.results <- as.data.frame(results, row.names=NULL)
+
+} # motifbrearGOF
+#----------------------------------------------------------------------------------------------------
