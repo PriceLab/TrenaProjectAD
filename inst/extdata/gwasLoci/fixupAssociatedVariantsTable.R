@@ -120,13 +120,15 @@ tbl.assoc <- rbind(tbl.with.3, tbl.wo.3)
 dim(tbl.assoc)
 coi <- c("chrom", "hg19", "hg38", "variant", "rsid", "iupac", "finemap.pip", "susie.pip", "susie.cs", "alleles", "associatedLocus")
 tbl.assoc <- tbl.assoc[, coi]
-tbl.assoc <- tbl.assoc[order(tbl.assoc$associatedLocus, decreasing=FALSE),]
-rownames(tbl.assoc) <- NULL
 
 associated.gene <- tbl.genes$Gene[tbl.assoc$associatedLocus]
 tbl.assoc$gene <- associated.gene
 
-save(tbl.assoc, file="tbl.posthuma-38-geneAssociations-curated-3828x13.RData")
+tbl.assoc <- tbl.assoc[order(tbl.assoc$associatedLocus, decreasing=FALSE),]
+rownames(tbl.assoc) <- NULL
+
+
+save(tbl.assoc, file="tbl.posthuma-38-geneAssociations-curated-3828x12.RData")
 
 
 

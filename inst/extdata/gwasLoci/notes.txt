@@ -1,0 +1,13 @@
+tbl.posthuma: 38 loci from
+
+  Jansen, I.E., Savage, J.E., Watanabe, K. et al. Genome-wide
+  meta-analysis identifies new loci and functional pathways
+  influencing Alzheimer’s disease risk. Nat Genet 51, 404–413
+  (2019). https://doi.org/10.1038/s41588-018-0311-9
+
+
+williams-natureNeuroscience2020.RData: 58 loci from
+
+   Sims,  R., Hill,  M.  & Williams,  J. The  multiplex  model of  the
+   genetics  of   Alzheimer’s  disease.   Nat  Neurosci   23,  311–322
+   (2020). https://doi.org/10.1038/s41593-020-0599-5
