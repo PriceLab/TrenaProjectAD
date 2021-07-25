@@ -1,0 +1,61 @@
+*----------------------------------------------------------------------------------------------------
+* ndufs2-igv-atac-gh-snps-153k.png (25 jul 2021)
+
+  shows tag.snp in open chromatin, intersecting very weak enhancer, < 1
+  gh for adamts4 shows same region, score up to 8.5 based on eqtl score of 6e-9
+  since we have a later ad-specific eqtl for the tag.snp and NDUFS2, we can infer a ~8 score for
+    this enhancer of NDUFS2 as well
+  
+
+*----------------------------------------------------------------------------------------------------
+* 2017 Mitochondrial genes are altered in blood early in Alzheimer's disease
+
+  Although mitochondrial dysfunction is a consistent feature of Alzheimer's disease in the brain and
+  blood, the molecular mechanisms behind these phenomena are unknown. Here we have replicated our
+  previous findings demonstrating reduced expression of nuclear-encoded oxidative phosphorylation
+  (OXPHOS) subunits and subunits required for the translation of mitochondrial-encoded OXPHOS genes
+  in blood from people with Alzheimer's disease and mild cognitive impairment. Interestingly this
+  was accompanied by increased expression of some mitochondrial-encoded OXPHOS genes, namely those
+  residing closest to the transcription start site of the polycistronic heavy chain mitochondrial
+  transcript (MT-ND1, MT-ND2, MT-ATP6, MT-CO1, MT-CO2, MT-C03) and MT-ND6 transcribed from the light
+  chain. Further we show that mitochondrial DNA copy number was unchanged suggesting no change in
+  steady-state numbers of mitochondria. We suggest that an imbalance in nuclear and mitochondrial
+  genome-encoded OXPHOS transcripts may drive a negative feedback loop reducing mitochondrial
+  translation and compromising OXPHOS efficiency, which is likely to generate damaging reactive
+  oxygen species.
+
+  table 2: Expression of many nuclear genome-encoded OXPHOS genes, mitochondrial ribosomal protein
+  (MRP) genes, and mitochondrial transcriptional regulator genes are decreased in Alzheimer's
+  disease
+
+*----------------------------------------------------------------------------------------------------
+* cites the 2017 article
+
+  REVIEW ARTICLE| JULY 19 2018
+
+  Mitochondrial abnormalities in Parkinson's disease and Alzheimer's disease: can mitochondria be
+  targeted therapeutically?
+
+  Mitochondrial abnormalities have been identified as a central mechanism in multiple
+  neurodegenerative diseases and, therefore, the mitochondria have been explored as a therapeutic
+  target. This review will focus on the evidence for mitochondrial abnormalities in the two most
+  common neurodegenerative diseases, Parkinson's disease and Alzheimer's disease. In addition, we
+  discuss the main strategies which have been explored in these diseases to target the mitochondria
+  for therapeutic purposes, focusing on mitochondrially targeted antioxidants, peptides, modulators
+  of mitochondrial dynamics and phenotypic screening outcomes.
+#----------------------------------------------------------------------------------------------------
+* Mitochondria, OxPhos, and neurodegeneration: cells are not just running out of gas
+
+  also cites the 2017 article
+
+  Mitochondrial respiratory deficiencies have been observed in numerous neurodegenerative disorders,
+  such as Alzheimer’s and Parkinson’s diseases. For decades, these reductions in oxidative
+  phosphorylation (OxPhos) have been presumed to trigger an overall bioenergetic crisis in the
+  neuron, resulting in cell death. While the connection between respiratory defects and neuronal
+  death has never been proven, this hypothesis has been supported by the detection of nonspecific
+  mitochondrial DNA mutations in these disorders. These findings led to the notion that
+  mitochondrial respiratory defects could be initiators of these common neurodegenerative disorders,
+  instead of being consequences of a prior insult, a theory we believe to be misconstrued. Herein,
+  we review the roots of this mitochondrial hypothesis and offer a new perspective wherein
+  mitochondria are analyzed not only from the OxPhos point of view, but also as a complex organelle
+  residing at the epicenter of many metabolic pathways.
