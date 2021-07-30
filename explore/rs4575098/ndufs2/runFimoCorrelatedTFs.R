@@ -1,3 +1,4 @@
+library(ghdb)
 source("~/github/fimoService/batchMode/fimoBatchTools.R")
 
 targetGene <- "NDUFS2"
@@ -45,11 +46,12 @@ bigRegion <- function(){
 tbl.regions <- nearbyRegion()
 tbl.regions <- smallRegion()
 tbl.regions <- regRegion()
+# tbl.regions <- bigRegion()
 with(tbl.regions, printf("span: %dkb", round((end-start)/1000)))
 
 system.time(tbl.fimo <- fimoBatch(tbl.regions,
                                   matchThreshold=1e-3,
                                   genomeName="hg38", pwmFile=meme.file))
-save(tbl.fimo, file="ndufs2-fimo4-64kb-continuous.RData")
+save(tbl.fimo, file="ndufs2-cor-fimo3-64kb-continuous.RData")
 
 
