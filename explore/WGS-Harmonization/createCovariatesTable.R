@@ -43,7 +43,7 @@ length(intersect(tbl.xref$specimenID, samples.vcf))
 ids.vcf <- subset(tbl.xref, specimenID %in% samples.vcf)$individualID
 ids.rna <- subset(tbl.xref, specimenID %in% samples.rna)$individualID
 
-ids.both <- intersect(ids.vcf, ids.rna)  
+ids.both <- intersect(ids.vcf, ids.rna)
 length(ids.both)  # 553
 length(unique(ids.both)) # 553
 
@@ -118,7 +118,8 @@ colnames(tbl.cov)
      #          6     Other dementia. Other primary cause of dementia
      # dcfdx_lv: age where first AD dx was given
 
-     # some modest renaming
+
+                                        # some modest renaming
 cop <- c("patientID", "specimen", "organ", "tissue", "cellType", "assay", "project", "study", "gender",
          "educ", "race", "spanish", "apoe_genotype", "age_at_visit_max", "age_first_ad_dx", "age_death",
          "cts_mmse30_first_ad_dx", "cts_mmse30_lv", "pmi", "braaksc", "ceradsc", "cogdx", "dcfdx_lv")

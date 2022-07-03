@@ -6,10 +6,11 @@ region <- GRanges(seqnames="7", IRanges(start=99371951, end=100633313))
 vcf.file <- file.path("~/github/TrenaProjectAD/inst/extdata/variants",
                   "NIA_JG_1898_samples_GRM_WGS_b37_JointAnalysis01_2017-12-08_7.recalibrated_variants.annotated.vcf")
 file.exists(vcf.file)
-
-tbi.filename <- indexTabix(vcf.file, format="vcf")  #  creates filename with .tbi suffix
+tbi.filename <- sprintf("%s.tbi", vcf.file)
+if(!file.exists(tbi.filename))
+   tbi.filename <- indexTabix(vcf.file, format="vcf")  #  creates filename with .tbi suffix
 file.exists(tbi.filename)
-vcf <- readVcf(file, "hg38", region)
+vcf <- readVcf(vcf.file, "hg38", region)
 length(vcf) # 28966
 writeVcf(vcf, filename="pilra-region.vcf")
 

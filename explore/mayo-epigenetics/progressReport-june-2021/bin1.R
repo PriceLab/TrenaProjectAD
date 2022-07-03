@@ -14,6 +14,20 @@ get.eqtls <- function(gene, pval.threshold)
 
 } # get.eqtls
 #----------------------------------------------------------------------------------------------------
+atac.filter.chrom.start.end <- function(tbl, tbl.name)
+{
+    stopifnot(all(c("chrom", "start", "end") %in% colnames(tbl)))
+    gr <- GRanges(seqnames=tbl$chrom, IRanges(start=tbl$start, end=tbl$end))
+
+    suppressWarnings(tbl.ov <- as.data.frame(findOverlaps(gr, gr.atac)))
+
+    indices <- unique(tbl.ov[,1])
+    printf("-- found %d entries in atac for %s", length(indices), tbl.name)
+
+    return(tbl[indices,])
+
+} # atac.filter.chrom.start.end
+#----------------------------------------------------------------------------------------------------
 atac.filter <- function(tbl, tbl.name)
 {
     stopifnot(all(c("chrom", "hg38") %in% colnames(tbl)))
@@ -37,7 +51,7 @@ gr.atac <- GRanges(seqnames=tbl.atac$chrom, IRanges(start=tbl.atac$start, end=tb
 
 atac.widths <- width(gr.atac)
 head(atac.widths)
-atac.padding <- as.integer(round(atac.widths/10))
+atac.padding <- as.integer(round(atac.widths/3))
 start(gr.atac) <- (start(gr.atac) - atac.padding)
 end(gr.atac) <- (end(gr.atac) + atac.padding)
 atac.widths <- width(gr.atac)
@@ -178,5 +192,85 @@ motifbreakrGOF <- function()
    save(results, file="27jun2021-motifbreakR-30eqtl-associated.RData")
    tbl.results <- as.data.frame(results, row.names=NULL)
 
+   tbl.strong <- subset(tbl.results, effect=="strong" & pctAlt > 0.95)
+   as.data.frame(sort(table(tbl.strong$SNP_id)))
+
 } # motifbrearGOF
 #----------------------------------------------------------------------------------------------------
+diffBindSearch <- function()
+{
+   print(load("~/github/TrenaProjectAD/explore/mayo-epigenetics/atac/earlyResultMayoWholeGenome.RData"))
+   tbl.dba$pvals.ad.psp <- pvals.ad.psp
+   tbl.dba$pvals.ad.ctl <- pvals.ad.ctl
+   tbl.dba$pvals.psp.ctl <- pvals.psp.ctl
+   colnames(tbl.dba)[1] <- "chrom"
+   tbl.dba$chrom <- as.character(tbl.dba$chrom)
+
+   roi <- getGenomicRegion(igv)
+   tbl.sub <- subset(tbl.dba, chrom==roi$chrom & start > roi$start & end < roi$end)
+   dim(tbl.sub)   # 23 33
+
+} # diffBindSearch
+#----------------------------------------------------------------------------------------------------
+displayPeak <- function()
+{
+   roi <- getGenomicRegion(igv)
+   tbl.sub <- subset(tbl.dba, chrom==roi$chrom & start > roi$start & end < roi$end)
+   dim(tbl.sub)
+
+   for(sample in sort(colnames(tbl.sub)[6:27])){
+       trackName <- sample
+       if(grepl("^ad", trackName)) color <- "lightblue"
+       if(grepl("^psp", trackName)) color <- "red"
+       if(grepl("^ctl", trackName)) color <- "green"
+       track <- DataFrameQuantitativeTrack(trackName,
+                                           tbl.sub[, c("chrom", "start", "end", sample)],
+                                           autoscale=FALSE, color=color,
+                                           trackHeight=25, min=0, max=0.01)
+       displayTrack(igv, track)
+       } # for file
+
+} # displayPeak
+#------------------------------------------------------------------------------------------------------------------------
+displayTFBS <- function()
+{
+  print(load("bin1-gh+atac-roi-trenaAndFimo.RData"))
+  tbl.trena <- x$trena
+  tbl.fimo  <- x$fimo
+
+  tfbs.03 <- unlist(lapply(tbl.trena$gene, function(gene) nrow(subset(tbl.fimo, tf==gene & p.value <= 0.001))))
+  tfbs.04 <- unlist(lapply(tbl.trena$gene, function(gene) nrow(subset(tbl.fimo, tf==gene & p.value <= 0.0001))))
+  tfbs.05 <- unlist(lapply(tbl.trena$gene, function(gene) nrow(subset(tbl.fimo, tf==gene & p.value <= 0.00001))))
+  tfbs.06 <- unlist(lapply(tbl.trena$gene, function(gene) nrow(subset(tbl.fimo, tf==gene & p.value <= 0.000001))))
+  tbl.trena$tfbs.06 <- tfbs.06
+  tbl.trena$tfbs.05 <- tfbs.05
+  tbl.trena$tfbs.04 <- tfbs.04
+  tbl.trena$tfbs.03 <- tfbs.03
+
+  head(tbl.trena, n=10)
+  tfs <- head(tbl.trena$gene, n=10)
+  threshold <- 1e-4
+  for(TF in tfs){
+      tbl.track <- subset(tbl.fimo, tf==TF & p.value <= threshold)[, c("chrom", "start", "end", "tf")]
+      tbl.track <- atac.filter.chrom.start.end(tbl.track, "fimo")
+      track <- DataFrameAnnotationTrack(TF, tbl.track, color="black", trackHeight=20)
+      displayTrack(igv, track)
+      }
+
+
+} # displayTFBS
+#------------------------------------------------------------------------------------------------------------------------
+tfeb <- function()
+{
+  print(load("bin1-gh+atac-roi-trenaAndFimo.RData"))
+  tbl.trena <- x$trena
+  tbl.trena <- tbl.trena[order(tbl.trena$pearsonCoeff, decreasing=TRUE),]
+  rownames(tbl.trena) <- NULL
+  head(tbl.trena)
+  tbl.fimo  <- x$fimo
+  tbl.fimo.tfeb <- subset(tbl.fimo, tf=="TFEB" & p.value < 1e-4)
+  track <- DataFrameAnnotationTrack("tfeb.5", tbl.fimo.tfeb[, c("chrom", "start", "end")], color="red", trackHeight=25)
+  displayTrack(igv, track)
+
+} # tfeb
+#------------------------------------------------------------------------------------------------------------------------

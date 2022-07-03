@@ -24,13 +24,17 @@ ctl.files <- c("20__11397_CER_ATAC_20.FCHGG3MBBXY_L7_ITCCTGAGC_R1.fastq.gz.PE_ma
                "02_1942_CER_ATAC-2.FCHFGJHBBXY_L5_R1_IGGACTCCT.fastq.gz.PE_macs2_peaks.bed")
 
 peak.files <- c(ad.files, psp.files, ctl.files)
-
+length(peak.files) # 22
 tbls <- list()
 
 for(file in peak.files){
    printf("--- %s", file)
    tbl <- read.table(file.path("../incoming", file), skip=1, sep="\t", as.is=TRUE)
-   colnames(tbl) <- c("chrom", "start", "end", "name", "score")
+   if(file %in% ad.files) dx <- "AD"
+   if(file %in% psp.files) dx <- "PSP"
+   if(file %in% ctl.files) dx <- "CTL"
+   tbl$dx <- dx
+   colnames(tbl) <- c("chrom", "start", "end", "name", "score", "dx")
    tbls[[file]] <- tbl
    }
 
@@ -48,7 +52,7 @@ head(tbl.sorted)
 colnames(tbl.sorted)[1] <- "chrom"
 tbl.sorted$chrom <- as.character(tbl.sorted$chrom)
 
-tbl.atac <- tbl.sorted[, c("chrom", "start", "end", "score")]
+tbl.atac <- tbl.sorted[, c("chrom", "start", "end", "score", "dx")]
 save(tbl.atac, file="~/github/TrenaProjectAD/explore/mayo-epigenetics/atac/mayoAllPeaks.1052789x4.RData")
 lapply(tbl.atac, class)
 dim(tbl.atac)
@@ -64,3 +68,41 @@ f <- "~/github/TrenaProjectAD/explore/mayo-epigenetics/atac/mayoAllPeaks.merged.
 save(tbl.atac.merged, file=f)
 
 
+#----------------------------------------------------------------------------------------------------
+# create piled-up atac regions, first just a small example in around the NDUFS2 tss
+#----------------------------------------------------------------------------------------------------
+
+if(!exists("igv")){
+    igv <- start.igv("NDUFS2", "hg38")
+}
+
+roi <- getGenomicRegion(igv)
+
+for(DX in c("AD", "PSP", "CTL")){
+   tbl <- subset(tbl.atac, chrom==roi$chrom & start >= roi$start & end <= roi$end & dx==DX)
+   tbl.summedScores <- as.data.frame(GRanges(coverage(GRanges(tbl), weight="score")))
+   tbl.summedScores <- subset(tbl.summedScores, score >= 1)
+   colnames(tbl.summedScores)[1] <- "chrom"
+   tbl.summedScores$chrom <- as.character(tbl.summedScores$chrom)
+   track <- DataFrameQuantitativeTrack(DX,
+                                       tbl.summedScores[-1, c("chrom", "start", "end", "score")],
+                                       autoscale=FALSE, color="random", min=0, max=500)
+   displayTrack(igv, track)
+   }
+
+
+#----------------------------------------------------------------------------------------------------
+# create a single piled-up coverage, on tbl for each diagnosis
+#----------------------------------------------------------------------------------------------------
+for(DX in c("AD", "PSP", "CTL")){
+   tbl <- subset(tbl.atac, dx==DX)
+   tbl.summedScores <- as.data.frame(GRanges(coverage(GRanges(tbl), weight="score")))
+   tbl.summedScores <- subset(tbl.summedScores, score >= 1)
+   colnames(tbl.summedScores)[1] <- "chrom"
+   tbl.summedScores$chrom <- as.character(tbl.summedScores$chrom)
+   printf("rows for %s: %d", DX, nrow(tbl.summedScores))
+   save(tbl.summedScores, file=sprintf("tbl.summedScoresATAC-seq-%s.RData", DX))
+   }
+# [1] rows for AD: 661056
+# [1] rows for PSP: 786604
+# [1] rows for CTL: 372016

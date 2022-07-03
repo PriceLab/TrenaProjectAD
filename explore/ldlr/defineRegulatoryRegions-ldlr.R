@@ -24,8 +24,8 @@ tbl.atac <- subset(tbl.atac, chrom==loc.chrom & start >= loc.start & end <= loc.
 dim(tbl.atac)  # 113 5
 
 igv <- start.igv(targetGene, "hg38")
-showGenomicRegion(igv, targetGene)
-zoomOut(igv); zoomOut(igv)
+showGenomicRegion(igv, "chr19:9,627,146-12,596,105")
+
 track <- DataFrameAnnotationTrack("atac", tbl.atac, color="random")
 displayTrack(igv, track)
 
